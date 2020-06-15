@@ -60,7 +60,8 @@ RUN pecl install xdebug-2.7.2 && docker-php-ext-enable xdebug
 # swoole 扩展
 RUN pecl install swoole-4.4.0 && docker-php-ext-enable swoole
 
-RUN apt-get purge -y ${BUILD_TOOLS} libmcrypt-dev libmagickwand-dev 
+#RUN apt-get remove -y  libmcrypt-dev libmagickwand-dev libfreetype6-dev zlib1g-dev libjpeg62-turbo-dev libpng-dev libz-dev zlib1g
+RUN apt-get remove -y  libmcrypt-dev libmagickwand-dev libfreetype6-dev zlib1g-dev libjpeg62-turbo-dev libpng-dev libz-dev 
 # 镜像信息
 LABEL Author="Lun"
 LABEL Version="2020.06"
