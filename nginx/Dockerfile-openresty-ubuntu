@@ -1,0 +1,32 @@
+FROM ubuntu:20.04
+# FROM debian:stable
+# LTS Ver ：ubuntu 20.04(focal) , ubuntu 18.04(bionic) , ubuntu 16.04(xenial) , ubuntu 14.04(trusty)
+# Debian 9（debian:stretch） , Debian 10（debian:buster）, Debian 11 (debian:bullseye) 
+# https://www.debian.org/releases/ & https://hub.docker.com/_/debian
+# http://releases.ubuntu.com/  &  https://hub.docker.com/_/ubuntu
+LABEL MAINTAINER "Lun"
+ENV OPENRESTY_VER 1.15.8.3
+ENV BUILD_TOOLS libpcre3-dev  libssl-dev perl make build-essential curl zlib1g.dev bc
+ENV PATH $PATH:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin
+
+RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
+    && ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && apt-get update -y \
+    && apt-get install -y --no-install-recommends  ${BUILD_TOOLS} \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /var/cache/apk/*
+WORKDIR /opt
+RUN curl -k -O https://openresty.org/download/openresty-${OPENRESTY_VER}.tar.gz \
+    && tar zxvf *.tar.gz
+#ADD openresty-${OPENRESTY_VER}.tar.gz /opt/
+RUN cd /opt/openresty-${OPENRESTY_VER} \
+    && ./configure --with-http_stub_status_module \
+    && make -j$(nproc) \
+    && make install \
+    && apt-get purge -y ${BUILD_TOOLS} \
+    && rm -rf /opt/* \
+    && mkdir -p /usr/local/openresty/nginx/conf/conf.d 
+
+ENTRYPOINT ["nginx","-g","daemon off;"]
+
+EXPOSE 80 443

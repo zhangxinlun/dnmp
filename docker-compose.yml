@@ -1,0 +1,104 @@
+version: '3.7'
+services:
+  nginx:
+    container_name: nginx
+    hostname: nginx
+    build: ./nginx
+    #image: openresty:ubuntu-20.10
+    volumes:
+     - ./code/:/app/:rw
+     - ./logs:/usr/local/openresty/nginx/logs
+     - ./nginx/conf:/usr/local/openresty/nginx/conf
+    ports:
+     - "80:80"
+     - "4433:443"
+    links:
+     - php-fpm:fpm
+    privileged: true
+    environment:
+       #TZ: "Asia/Shanghai"
+     - NGINX_HOST=jr.com
+     - NGINX_PORT=80
+    restart: always
+    depends_on:
+     - php-fpm
+    networks:
+     - net-lnmp
+  php-fpm:
+    container_name: php-fpm
+    hostname: php-fpm
+    build: ./php
+    privileged: true
+    volumes:
+     - ./code/:/app/:rw
+     #- ./php/php-ini.d/php.ini:/usr/local/etc/php/conf.d/php.ini:ro    #php.ini dir
+     #- ./php/php-fpm.d/jinr.conf:/usr/local/etc/php-fpm.d/www.conf:ro
+     - ./php/php-fpm.d/jinr.conf:/etc/php/php-fpm.conf:ro  #Dockerfile-php56 FROM alpine:3.3 
+     #- ./fpm.log:/usr/local/php/var/log/php-fpm.log
+     - ./logs/fpmlogs/:/usr/local/var/log/:rw
+    links:
+     - mysql:mysql
+     - redis:redis
+    ports:
+     - "9000:9000"
+    restart: always
+    depends_on:
+     - redis
+     - mysql
+    networks:
+     - net-lnmp
+  mysql:
+    container_name: mysql
+    hostname: mysql
+    build: ./mysql
+    ports: 
+     - "3306:3306"
+    volumes:
+     - ./mysql/data/:/var/lib/mysql/
+    environment:
+     MYSQL_ROOT_PASSWORD: JinrPwd123
+    networks:
+     - net-lnmp
+  redis:
+    container_name: redis
+    hostname: redis
+    #build: ./redis
+    image: redis:latest
+    privileged: true
+    environment:
+      - REDIS_CONF=on
+      - REQUIRE_PASS=QVMOLowARqCrU9ZqN8
+      - MASTER_AUTH=QVMOLowARqCrU9ZqN8
+      - MAXCLIENTS_NUM=600
+      - MAXMEMORY_SIZE=4096M
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /data/redis-data:/data/redis:Z
+      - /data/logs:/data/logs
+    restart: always
+    ports:
+      - '6379:6379'
+      - '26379:26379'
+    networks:
+      - net-lnmp
+  softether:
+    image: alpine:latest
+    links:
+      - "redis:redisdb"
+    container_name: alpine
+    restart: always
+    ports:
+      - '14433:443'
+      #- '1194:1194'
+    depends_on:
+      - redis
+      - mysql
+    networks:
+      - net-lnmp
+networks:
+  net-lnmp:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.0.0/24
+

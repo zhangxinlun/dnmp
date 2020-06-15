@@ -1,0 +1,34 @@
+server {
+    listen 80;
+    server_name finance.jingyubank.com;
+    index index.html index.htm index.php;
+    root  /data/web/finance/;
+#rewrite ^(.*)$  https://$host$1 permanent; 
+    include age-max.conf;
+
+    location ~ .*\.php?$
+     {
+      fastcgi_pass  127.0.0.1:9000;
+      fastcgi_index index.php;
+      include fcgi.conf;
+     }
+    location ~ (.*\.sh?$|/\.)
+     {
+       return 403;
+     }
+
+        location / {
+                        index index.html index.htm index.php;
+                              if ( !-e $request_filename){
+                                rewrite ^/(.*)$ /index.php?s=$1 last;
+                                break;
+                                }
+                }
+
+    access_log  logs/finance.jingyubank.com.log;
+    error_log   logs/finance.jingyubank.com.err;
+    if ( $fastcgi_script_name ~ \..*\/.*php )
+      {
+        return 403;
+      }
+}
