@@ -56,7 +56,7 @@ services:
     volumes:
      - ./mysql/data/:/var/lib/mysql/
     environment:
-     MYSQL_ROOT_PASSWORD: JinrPwd123
+     MYSQL_ROOT_PASSWORD: MydbPwd123
     networks:
      - net-lnmp
   redis:
