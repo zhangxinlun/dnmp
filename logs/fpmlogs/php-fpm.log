@@ -3462,3 +3462,821 @@
 [16-Jun-2020 02:27:25.659266] DEBUG: pid 1, fpm_pctl_heartbeat(), line 460: heartbeat have been set up with a timeout of 666ms
 [16-Jun-2020 02:27:25.659276] DEBUG: pid 1, fpm_event_loop(), line 366: 235320 bytes have been reserved in SHM
 [16-Jun-2020 02:27:25.659283] NOTICE: pid 1, fpm_event_loop(), line 367: ready to handle connections
+[16-Jun-2020 09:09:57.163341] DEBUG: pid 1, fpm_got_signal(), line 85: received SIGTERM
+[16-Jun-2020 09:09:57.163377] NOTICE: pid 1, fpm_got_signal(), line 86: Terminating ...
+[16-Jun-2020 09:09:57.163389] DEBUG: pid 1, fpm_pctl(), line 231: switching to 'terminating' state
+[16-Jun-2020 09:09:57.163405] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 205
+[16-Jun-2020 09:09:57.163416] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 204
+[16-Jun-2020 09:09:57.163429] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 203
+[16-Jun-2020 09:09:57.163440] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 202
+[16-Jun-2020 09:09:57.163450] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 201
+[16-Jun-2020 09:09:57.163460] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 200
+[16-Jun-2020 09:09:57.163470] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 199
+[16-Jun-2020 09:09:57.163481] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 198
+[16-Jun-2020 09:09:57.163497] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 197
+[16-Jun-2020 09:09:57.163508] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 196
+[16-Jun-2020 09:09:57.163522] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 195
+[16-Jun-2020 09:09:57.163532] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 194
+[16-Jun-2020 09:09:57.163543] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 193
+[16-Jun-2020 09:09:57.163554] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 192
+[16-Jun-2020 09:09:57.163564] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 191
+[16-Jun-2020 09:09:57.163574] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 190
+[16-Jun-2020 09:09:57.163585] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 189
+[16-Jun-2020 09:09:57.163595] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 188
+[16-Jun-2020 09:09:57.163605] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 187
+[16-Jun-2020 09:09:57.163614] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 186
+[16-Jun-2020 09:09:57.163625] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 185
+[16-Jun-2020 09:09:57.163635] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 184
+[16-Jun-2020 09:09:57.166305] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 183
+[16-Jun-2020 09:09:57.166332] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 182
+[16-Jun-2020 09:09:57.166343] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 181
+[16-Jun-2020 09:09:57.166353] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 180
+[16-Jun-2020 09:09:57.166362] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 179
+[16-Jun-2020 09:09:57.166372] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 178
+[16-Jun-2020 09:09:57.166383] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 177
+[16-Jun-2020 09:09:57.166392] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 176
+[16-Jun-2020 09:09:57.166401] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 175
+[16-Jun-2020 09:09:57.166411] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 174
+[16-Jun-2020 09:09:57.166420] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 173
+[16-Jun-2020 09:09:57.166429] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 172
+[16-Jun-2020 09:09:57.166439] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 171
+[16-Jun-2020 09:09:57.166448] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 170
+[16-Jun-2020 09:09:57.166457] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 169
+[16-Jun-2020 09:09:57.166466] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 168
+[16-Jun-2020 09:09:57.166476] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 167
+[16-Jun-2020 09:09:57.166485] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 166
+[16-Jun-2020 09:09:57.166494] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 165
+[16-Jun-2020 09:09:57.166505] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 164
+[16-Jun-2020 09:09:57.166515] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 163
+[16-Jun-2020 09:09:57.166526] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 162
+[16-Jun-2020 09:09:57.166535] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 161
+[16-Jun-2020 09:09:57.166545] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 160
+[16-Jun-2020 09:09:57.166555] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 159
+[16-Jun-2020 09:09:57.166565] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 158
+[16-Jun-2020 09:09:57.166575] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 157
+[16-Jun-2020 09:09:57.166586] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 156
+[16-Jun-2020 09:09:57.166596] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 155
+[16-Jun-2020 09:09:57.166612] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 154
+[16-Jun-2020 09:09:57.166622] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 153
+[16-Jun-2020 09:09:57.166632] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 152
+[16-Jun-2020 09:09:57.166642] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 151
+[16-Jun-2020 09:09:57.166659] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 150
+[16-Jun-2020 09:09:57.166669] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 149
+[16-Jun-2020 09:09:57.166679] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 148
+[16-Jun-2020 09:09:57.166690] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 147
+[16-Jun-2020 09:09:57.166700] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 146
+[16-Jun-2020 09:09:57.166711] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 145
+[16-Jun-2020 09:09:57.166734] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 144
+[16-Jun-2020 09:09:57.166744] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 143
+[16-Jun-2020 09:09:57.166753] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 142
+[16-Jun-2020 09:09:57.166763] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 141
+[16-Jun-2020 09:09:57.166772] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 140
+[16-Jun-2020 09:09:57.166792] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 139
+[16-Jun-2020 09:09:57.166802] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 138
+[16-Jun-2020 09:09:57.166811] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 137
+[16-Jun-2020 09:09:57.166821] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 136
+[16-Jun-2020 09:09:57.166831] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 135
+[16-Jun-2020 09:09:57.166840] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 134
+[16-Jun-2020 09:09:57.166849] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 133
+[16-Jun-2020 09:09:57.166859] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 132
+[16-Jun-2020 09:09:57.166869] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 131
+[16-Jun-2020 09:09:57.166880] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 130
+[16-Jun-2020 09:09:57.166889] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 129
+[16-Jun-2020 09:09:57.166899] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 128
+[16-Jun-2020 09:09:57.166909] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 127
+[16-Jun-2020 09:09:57.166919] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 126
+[16-Jun-2020 09:09:57.166928] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 125
+[16-Jun-2020 09:09:57.166938] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 124
+[16-Jun-2020 09:09:57.166948] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 123
+[16-Jun-2020 09:09:57.166965] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 122
+[16-Jun-2020 09:09:57.166975] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 121
+[16-Jun-2020 09:09:57.166985] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 120
+[16-Jun-2020 09:09:57.166994] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 119
+[16-Jun-2020 09:09:57.167009] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 118
+[16-Jun-2020 09:09:57.167020] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 117
+[16-Jun-2020 09:09:57.167030] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 116
+[16-Jun-2020 09:09:57.167040] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 115
+[16-Jun-2020 09:09:57.167055] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 114
+[16-Jun-2020 09:09:57.167065] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 113
+[16-Jun-2020 09:09:57.167075] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 112
+[16-Jun-2020 09:09:57.167084] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 111
+[16-Jun-2020 09:09:57.167094] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 110
+[16-Jun-2020 09:09:57.167104] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 109
+[16-Jun-2020 09:09:57.167113] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 108
+[16-Jun-2020 09:09:57.167123] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 107
+[16-Jun-2020 09:09:57.167133] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 106
+[16-Jun-2020 09:09:57.167142] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 105
+[16-Jun-2020 09:09:57.167151] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 104
+[16-Jun-2020 09:09:57.167161] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 103
+[16-Jun-2020 09:09:57.167170] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 102
+[16-Jun-2020 09:09:57.167180] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 101
+[16-Jun-2020 09:09:57.167190] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 100
+[16-Jun-2020 09:09:57.167199] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 99
+[16-Jun-2020 09:09:57.167209] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 98
+[16-Jun-2020 09:09:57.167224] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 97
+[16-Jun-2020 09:09:57.167234] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 96
+[16-Jun-2020 09:09:57.167244] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 95
+[16-Jun-2020 09:09:57.167253] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 94
+[16-Jun-2020 09:09:57.167263] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 93
+[16-Jun-2020 09:09:57.167273] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 92
+[16-Jun-2020 09:09:57.167283] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 91
+[16-Jun-2020 09:09:57.167294] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 90
+[16-Jun-2020 09:09:57.167304] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 89
+[16-Jun-2020 09:09:57.167314] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 88
+[16-Jun-2020 09:09:57.167324] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 87
+[16-Jun-2020 09:09:57.167334] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 86
+[16-Jun-2020 09:09:57.167347] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 85
+[16-Jun-2020 09:09:57.167358] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 84
+[16-Jun-2020 09:09:57.167368] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 83
+[16-Jun-2020 09:09:57.167377] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 82
+[16-Jun-2020 09:09:57.167392] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 81
+[16-Jun-2020 09:09:57.167402] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 80
+[16-Jun-2020 09:09:57.167411] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 79
+[16-Jun-2020 09:09:57.167422] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 78
+[16-Jun-2020 09:09:57.167432] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 77
+[16-Jun-2020 09:09:57.167447] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 76
+[16-Jun-2020 09:09:57.167456] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 75
+[16-Jun-2020 09:09:57.167466] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 74
+[16-Jun-2020 09:09:57.167476] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 73
+[16-Jun-2020 09:09:57.167491] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 72
+[16-Jun-2020 09:09:57.167501] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 71
+[16-Jun-2020 09:09:57.167510] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 70
+[16-Jun-2020 09:09:57.167520] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 69
+[16-Jun-2020 09:09:57.167530] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 68
+[16-Jun-2020 09:09:57.167539] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 67
+[16-Jun-2020 09:09:57.167549] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 66
+[16-Jun-2020 09:09:57.167559] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 65
+[16-Jun-2020 09:09:57.167569] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 64
+[16-Jun-2020 09:09:57.167580] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 63
+[16-Jun-2020 09:09:57.167590] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 62
+[16-Jun-2020 09:09:57.167599] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 61
+[16-Jun-2020 09:09:57.167609] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 60
+[16-Jun-2020 09:09:57.167619] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 59
+[16-Jun-2020 09:09:57.167629] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 58
+[16-Jun-2020 09:09:57.167640] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 57
+[16-Jun-2020 09:09:57.167650] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 56
+[16-Jun-2020 09:09:57.167660] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 55
+[16-Jun-2020 09:09:57.167669] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 54
+[16-Jun-2020 09:09:57.167680] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 53
+[16-Jun-2020 09:09:57.167693] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 52
+[16-Jun-2020 09:09:57.167704] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 51
+[16-Jun-2020 09:09:57.167713] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 50
+[16-Jun-2020 09:09:57.167723] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 49
+[16-Jun-2020 09:09:57.167733] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 48
+[16-Jun-2020 09:09:57.167743] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 47
+[16-Jun-2020 09:09:57.167753] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 46
+[16-Jun-2020 09:09:57.167763] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 45
+[16-Jun-2020 09:09:57.167781] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 44
+[16-Jun-2020 09:09:57.167797] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 43
+[16-Jun-2020 09:09:57.167807] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 42
+[16-Jun-2020 09:09:57.167817] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 41
+[16-Jun-2020 09:09:57.167827] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 40
+[16-Jun-2020 09:09:57.167836] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 39
+[16-Jun-2020 09:09:57.167846] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 38
+[16-Jun-2020 09:09:57.167855] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 37
+[16-Jun-2020 09:09:57.167865] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 36
+[16-Jun-2020 09:09:57.167875] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 35
+[16-Jun-2020 09:09:57.167884] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 34
+[16-Jun-2020 09:09:57.167893] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 33
+[16-Jun-2020 09:09:57.167903] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 32
+[16-Jun-2020 09:09:57.167913] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 31
+[16-Jun-2020 09:09:57.167923] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 30
+[16-Jun-2020 09:09:57.167933] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 29
+[16-Jun-2020 09:09:57.167942] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 28
+[16-Jun-2020 09:09:57.167952] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 27
+[16-Jun-2020 09:09:57.167962] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 26
+[16-Jun-2020 09:09:57.167972] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 25
+[16-Jun-2020 09:09:57.167983] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 24
+[16-Jun-2020 09:09:57.167993] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 23
+[16-Jun-2020 09:09:57.168003] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 22
+[16-Jun-2020 09:09:57.168014] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 21
+[16-Jun-2020 09:09:57.168024] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 20
+[16-Jun-2020 09:09:57.168039] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 19
+[16-Jun-2020 09:09:57.168049] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 18
+[16-Jun-2020 09:09:57.168064] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 17
+[16-Jun-2020 09:09:57.168075] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 16
+[16-Jun-2020 09:09:57.168086] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 15
+[16-Jun-2020 09:09:57.168096] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 14
+[16-Jun-2020 09:09:57.168106] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 13
+[16-Jun-2020 09:09:57.168122] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 12
+[16-Jun-2020 09:09:57.168132] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 11
+[16-Jun-2020 09:09:57.168142] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 10
+[16-Jun-2020 09:09:57.168151] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 9
+[16-Jun-2020 09:09:57.168161] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 8
+[16-Jun-2020 09:09:57.168171] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 7
+[16-Jun-2020 09:09:57.168181] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 15 SIGTERM to child 6
+[16-Jun-2020 09:09:57.168187] DEBUG: pid 1, fpm_pctl_kill_all(), line 168: 200 child(ren) still alive
+[16-Jun-2020 09:09:57.168200] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.168256] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 66 exited on signal 15 (SIGTERM) after 24151.565144 seconds from start
+[16-Jun-2020 09:09:57.168286] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 71 exited on signal 15 (SIGTERM) after 24151.561649 seconds from start
+[16-Jun-2020 09:09:57.168322] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 109 exited on signal 15 (SIGTERM) after 24151.548530 seconds from start
+[16-Jun-2020 09:09:57.168353] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 122 exited on signal 15 (SIGTERM) after 24151.544108 seconds from start
+[16-Jun-2020 09:09:57.168388] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 154 exited on signal 15 (SIGTERM) after 24151.532799 seconds from start
+[16-Jun-2020 09:09:57.168422] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 178 exited on signal 15 (SIGTERM) after 24151.524302 seconds from start
+[16-Jun-2020 09:09:57.168450] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 179 exited on signal 15 (SIGTERM) after 24151.523970 seconds from start
+[16-Jun-2020 09:09:57.168480] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 180 exited on signal 15 (SIGTERM) after 24151.523629 seconds from start
+[16-Jun-2020 09:09:57.168509] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 181 exited on signal 15 (SIGTERM) after 24151.523305 seconds from start
+[16-Jun-2020 09:09:57.168538] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 182 exited on signal 15 (SIGTERM) after 24151.522984 seconds from start
+[16-Jun-2020 09:09:57.168572] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 177 exited on signal 15 (SIGTERM) after 24151.524824 seconds from start
+[16-Jun-2020 09:09:57.168606] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 183 exited on signal 15 (SIGTERM) after 24151.522688 seconds from start
+[16-Jun-2020 09:09:57.168635] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 15 exited on signal 15 (SIGTERM) after 24151.582346 seconds from start
+[16-Jun-2020 09:09:57.168660] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 16 exited on signal 15 (SIGTERM) after 24151.582013 seconds from start
+[16-Jun-2020 09:09:57.168693] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 184 exited on signal 15 (SIGTERM) after 24151.522419 seconds from start
+[16-Jun-2020 09:09:57.168721] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 185 exited on signal 15 (SIGTERM) after 24151.522097 seconds from start
+[16-Jun-2020 09:09:57.168750] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 186 exited on signal 15 (SIGTERM) after 24151.521742 seconds from start
+[16-Jun-2020 09:09:57.168787] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 187 exited on signal 15 (SIGTERM) after 24151.521393 seconds from start
+[16-Jun-2020 09:09:57.168823] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 188 exited on signal 15 (SIGTERM) after 24151.521062 seconds from start
+[16-Jun-2020 09:09:57.168851] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 176 exited on signal 15 (SIGTERM) after 24151.525464 seconds from start
+[16-Jun-2020 09:09:57.168881] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 189 exited on signal 15 (SIGTERM) after 24151.520751 seconds from start
+[16-Jun-2020 09:09:57.168909] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 190 exited on signal 15 (SIGTERM) after 24151.520427 seconds from start
+[16-Jun-2020 09:09:57.168936] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 191 exited on signal 15 (SIGTERM) after 24151.520073 seconds from start
+[16-Jun-2020 09:09:57.168964] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 192 exited on signal 15 (SIGTERM) after 24151.519733 seconds from start
+[16-Jun-2020 09:09:57.168997] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 193 exited on signal 15 (SIGTERM) after 24151.519409 seconds from start
+[16-Jun-2020 09:09:57.169035] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 12 exited on signal 15 (SIGTERM) after 24151.583765 seconds from start
+[16-Jun-2020 09:09:57.169059] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 14 exited on signal 15 (SIGTERM) after 24151.583105 seconds from start
+[16-Jun-2020 09:09:57.169089] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 194 exited on signal 15 (SIGTERM) after 24151.519099 seconds from start
+[16-Jun-2020 09:09:57.169118] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 195 exited on signal 15 (SIGTERM) after 24151.518743 seconds from start
+[16-Jun-2020 09:09:57.169146] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 196 exited on signal 15 (SIGTERM) after 24151.518360 seconds from start
+[16-Jun-2020 09:09:57.169178] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 197 exited on signal 15 (SIGTERM) after 24151.517997 seconds from start
+[16-Jun-2020 09:09:57.169206] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 175 exited on signal 15 (SIGTERM) after 24151.526163 seconds from start
+[16-Jun-2020 09:09:57.169238] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 198 exited on signal 15 (SIGTERM) after 24151.517687 seconds from start
+[16-Jun-2020 09:09:57.169265] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 199 exited on signal 15 (SIGTERM) after 24151.513575 seconds from start
+[16-Jun-2020 09:09:57.169291] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 200 exited on signal 15 (SIGTERM) after 24151.513187 seconds from start
+[16-Jun-2020 09:09:57.169320] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 201 exited on signal 15 (SIGTERM) after 24151.512062 seconds from start
+[16-Jun-2020 09:09:57.169350] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 13 exited on signal 15 (SIGTERM) after 24151.583720 seconds from start
+[16-Jun-2020 09:09:57.169379] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 202 exited on signal 15 (SIGTERM) after 24151.511737 seconds from start
+[16-Jun-2020 09:09:57.169406] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 203 exited on signal 15 (SIGTERM) after 24151.511370 seconds from start
+[16-Jun-2020 09:09:57.169439] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 204 exited on signal 15 (SIGTERM) after 24151.510565 seconds from start
+[16-Jun-2020 09:09:57.169467] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 205 exited on signal 15 (SIGTERM) after 24151.510232 seconds from start
+[16-Jun-2020 09:09:57.169484] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169498] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169512] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169545] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 174 exited on signal 15 (SIGTERM) after 24151.526860 seconds from start
+[16-Jun-2020 09:09:57.169560] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169578] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169601] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 11 exited on signal 15 (SIGTERM) after 24151.584878 seconds from start
+[16-Jun-2020 09:09:57.169615] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169628] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169641] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169655] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169668] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169682] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169696] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169709] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169723] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169736] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169749] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169762] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169782] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169797] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169810] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.169824] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.169838] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 173
+[16-Jun-2020 09:09:57.169847] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 172
+[16-Jun-2020 09:09:57.169855] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 171
+[16-Jun-2020 09:09:57.169864] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 170
+[16-Jun-2020 09:09:57.169873] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 169
+[16-Jun-2020 09:09:57.169885] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 168
+[16-Jun-2020 09:09:57.169894] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 167
+[16-Jun-2020 09:09:57.169902] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 166
+[16-Jun-2020 09:09:57.169910] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 165
+[16-Jun-2020 09:09:57.169918] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 164
+[16-Jun-2020 09:09:57.169926] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 163
+[16-Jun-2020 09:09:57.169933] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 162
+[16-Jun-2020 09:09:57.169945] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 161
+[16-Jun-2020 09:09:57.169953] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 160
+[16-Jun-2020 09:09:57.169962] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 159
+[16-Jun-2020 09:09:57.169969] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 158
+[16-Jun-2020 09:09:57.169978] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 157
+[16-Jun-2020 09:09:57.169986] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 156
+[16-Jun-2020 09:09:57.169994] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 155
+[16-Jun-2020 09:09:57.170002] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 153
+[16-Jun-2020 09:09:57.170010] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 152
+[16-Jun-2020 09:09:57.170019] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 151
+[16-Jun-2020 09:09:57.170027] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 150
+[16-Jun-2020 09:09:57.170036] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 149
+[16-Jun-2020 09:09:57.170044] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 148
+[16-Jun-2020 09:09:57.170052] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 147
+[16-Jun-2020 09:09:57.170061] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 146
+[16-Jun-2020 09:09:57.170069] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 145
+[16-Jun-2020 09:09:57.170077] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 144
+[16-Jun-2020 09:09:57.170085] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 143
+[16-Jun-2020 09:09:57.170093] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 142
+[16-Jun-2020 09:09:57.170106] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 141
+[16-Jun-2020 09:09:57.170114] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 140
+[16-Jun-2020 09:09:57.170123] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 139
+[16-Jun-2020 09:09:57.170131] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 138
+[16-Jun-2020 09:09:57.170140] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 137
+[16-Jun-2020 09:09:57.170148] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 136
+[16-Jun-2020 09:09:57.170157] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 135
+[16-Jun-2020 09:09:57.170165] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 134
+[16-Jun-2020 09:09:57.170174] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 133
+[16-Jun-2020 09:09:57.170183] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 132
+[16-Jun-2020 09:09:57.170191] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 131
+[16-Jun-2020 09:09:57.170202] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 130
+[16-Jun-2020 09:09:57.170211] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 129
+[16-Jun-2020 09:09:57.170223] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 128
+[16-Jun-2020 09:09:57.170235] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 127
+[16-Jun-2020 09:09:57.170243] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 126
+[16-Jun-2020 09:09:57.170252] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 125
+[16-Jun-2020 09:09:57.170260] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 124
+[16-Jun-2020 09:09:57.170269] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 123
+[16-Jun-2020 09:09:57.170277] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 121
+[16-Jun-2020 09:09:57.170290] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 120
+[16-Jun-2020 09:09:57.170299] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 119
+[16-Jun-2020 09:09:57.170307] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 118
+[16-Jun-2020 09:09:57.170315] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 117
+[16-Jun-2020 09:09:57.170323] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 116
+[16-Jun-2020 09:09:57.170331] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 115
+[16-Jun-2020 09:09:57.170338] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 114
+[16-Jun-2020 09:09:57.170346] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 113
+[16-Jun-2020 09:09:57.170354] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 112
+[16-Jun-2020 09:09:57.170362] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 111
+[16-Jun-2020 09:09:57.170370] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 110
+[16-Jun-2020 09:09:57.170378] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 108
+[16-Jun-2020 09:09:57.170394] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 107
+[16-Jun-2020 09:09:57.170401] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 106
+[16-Jun-2020 09:09:57.170409] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 105
+[16-Jun-2020 09:09:57.170417] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 104
+[16-Jun-2020 09:09:57.170425] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 103
+[16-Jun-2020 09:09:57.170433] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 102
+[16-Jun-2020 09:09:57.170442] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 101
+[16-Jun-2020 09:09:57.170450] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 100
+[16-Jun-2020 09:09:57.170458] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 99
+[16-Jun-2020 09:09:57.170466] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 98
+[16-Jun-2020 09:09:57.170475] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 97
+[16-Jun-2020 09:09:57.170483] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 96
+[16-Jun-2020 09:09:57.170491] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 95
+[16-Jun-2020 09:09:57.170500] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 94
+[16-Jun-2020 09:09:57.170509] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 93
+[16-Jun-2020 09:09:57.170521] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 92
+[16-Jun-2020 09:09:57.170529] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 91
+[16-Jun-2020 09:09:57.170538] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 90
+[16-Jun-2020 09:09:57.170546] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 89
+[16-Jun-2020 09:09:57.170554] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 88
+[16-Jun-2020 09:09:57.170563] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 87
+[16-Jun-2020 09:09:57.170571] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 86
+[16-Jun-2020 09:09:57.170579] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 85
+[16-Jun-2020 09:09:57.170588] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 84
+[16-Jun-2020 09:09:57.170596] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 83
+[16-Jun-2020 09:09:57.170604] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 82
+[16-Jun-2020 09:09:57.170613] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 81
+[16-Jun-2020 09:09:57.170621] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 80
+[16-Jun-2020 09:09:57.170630] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 79
+[16-Jun-2020 09:09:57.170645] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 78
+[16-Jun-2020 09:09:57.170653] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 77
+[16-Jun-2020 09:09:57.170662] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 76
+[16-Jun-2020 09:09:57.170672] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 75
+[16-Jun-2020 09:09:57.170681] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 74
+[16-Jun-2020 09:09:57.170689] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 73
+[16-Jun-2020 09:09:57.170697] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 72
+[16-Jun-2020 09:09:57.170706] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 70
+[16-Jun-2020 09:09:57.170715] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 69
+[16-Jun-2020 09:09:57.170723] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 68
+[16-Jun-2020 09:09:57.170732] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 67
+[16-Jun-2020 09:09:57.170741] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 65
+[16-Jun-2020 09:09:57.170750] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 64
+[16-Jun-2020 09:09:57.170758] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 63
+[16-Jun-2020 09:09:57.170767] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 62
+[16-Jun-2020 09:09:57.170783] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 61
+[16-Jun-2020 09:09:57.170791] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 60
+[16-Jun-2020 09:09:57.170800] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 59
+[16-Jun-2020 09:09:57.170809] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 58
+[16-Jun-2020 09:09:57.170822] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 57
+[16-Jun-2020 09:09:57.170831] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 56
+[16-Jun-2020 09:09:57.170840] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 55
+[16-Jun-2020 09:09:57.170853] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 54
+[16-Jun-2020 09:09:57.170862] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 53
+[16-Jun-2020 09:09:57.170871] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 52
+[16-Jun-2020 09:09:57.170880] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 51
+[16-Jun-2020 09:09:57.170889] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 50
+[16-Jun-2020 09:09:57.170897] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 49
+[16-Jun-2020 09:09:57.170906] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 48
+[16-Jun-2020 09:09:57.170915] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 47
+[16-Jun-2020 09:09:57.170924] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 46
+[16-Jun-2020 09:09:57.170933] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 45
+[16-Jun-2020 09:09:57.170941] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 44
+[16-Jun-2020 09:09:57.170950] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 43
+[16-Jun-2020 09:09:57.170959] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 42
+[16-Jun-2020 09:09:57.170969] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 41
+[16-Jun-2020 09:09:57.170978] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 40
+[16-Jun-2020 09:09:57.170987] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 39
+[16-Jun-2020 09:09:57.170996] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 38
+[16-Jun-2020 09:09:57.171004] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 37
+[16-Jun-2020 09:09:57.171013] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 36
+[16-Jun-2020 09:09:57.171022] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 35
+[16-Jun-2020 09:09:57.171036] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 34
+[16-Jun-2020 09:09:57.171045] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 33
+[16-Jun-2020 09:09:57.171054] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 32
+[16-Jun-2020 09:09:57.171064] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 31
+[16-Jun-2020 09:09:57.171072] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 30
+[16-Jun-2020 09:09:57.171080] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 29
+[16-Jun-2020 09:09:57.171089] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 28
+[16-Jun-2020 09:09:57.171098] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 27
+[16-Jun-2020 09:09:57.171107] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 26
+[16-Jun-2020 09:09:57.171115] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 25
+[16-Jun-2020 09:09:57.171124] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 24
+[16-Jun-2020 09:09:57.171137] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 23
+[16-Jun-2020 09:09:57.171146] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 22
+[16-Jun-2020 09:09:57.171155] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 21
+[16-Jun-2020 09:09:57.171163] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 20
+[16-Jun-2020 09:09:57.171172] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 19
+[16-Jun-2020 09:09:57.171180] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 18
+[16-Jun-2020 09:09:57.171188] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 17
+[16-Jun-2020 09:09:57.171196] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 10
+[16-Jun-2020 09:09:57.171204] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 9
+[16-Jun-2020 09:09:57.171212] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 8
+[16-Jun-2020 09:09:57.171224] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 7
+[16-Jun-2020 09:09:57.171233] DEBUG: pid 1, fpm_pctl_kill_all(), line 159: [pool www] sending signal 9 SIGKILL to child 6
+[16-Jun-2020 09:09:57.171239] DEBUG: pid 1, fpm_pctl_kill_all(), line 168: 157 child(ren) still alive
+[16-Jun-2020 09:09:57.171253] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171287] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 8 exited on signal 15 (SIGTERM) after 24151.587450 seconds from start
+[16-Jun-2020 09:09:57.171310] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 9 exited on signal 15 (SIGTERM) after 24151.587172 seconds from start
+[16-Jun-2020 09:09:57.171333] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 10 exited on signal 15 (SIGTERM) after 24151.586930 seconds from start
+[16-Jun-2020 09:09:57.171370] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 168 exited on signal 15 (SIGTERM) after 24151.530839 seconds from start
+[16-Jun-2020 09:09:57.171397] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 169 exited on signal 15 (SIGTERM) after 24151.530505 seconds from start
+[16-Jun-2020 09:09:57.171425] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 170 exited on signal 15 (SIGTERM) after 24151.530182 seconds from start
+[16-Jun-2020 09:09:57.171452] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 171 exited on signal 15 (SIGTERM) after 24151.529842 seconds from start
+[16-Jun-2020 09:09:57.171479] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 172 exited on signal 15 (SIGTERM) after 24151.529507 seconds from start
+[16-Jun-2020 09:09:57.171505] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 173 exited on signal 15 (SIGTERM) after 24151.529172 seconds from start
+[16-Jun-2020 09:09:57.171539] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 167 exited on signal 15 (SIGTERM) after 24151.531349 seconds from start
+[16-Jun-2020 09:09:57.171555] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171578] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171593] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171607] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171620] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171634] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171648] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171662] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171676] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171697] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.171734] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171791] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 166 exited on signal 15 (SIGTERM) after 24151.531952 seconds from start
+[16-Jun-2020 09:09:57.171810] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.171932] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.171958] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 164 exited on signal 15 (SIGTERM) after 24151.532823 seconds from start
+[16-Jun-2020 09:09:57.171978] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 165 exited on signal 15 (SIGTERM) after 24151.532497 seconds from start
+[16-Jun-2020 09:09:57.171990] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172001] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.172100] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172121] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 163 exited on signal 15 (SIGTERM) after 24151.533340 seconds from start
+[16-Jun-2020 09:09:57.172134] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.172239] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172260] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 162 exited on signal 15 (SIGTERM) after 24151.533867 seconds from start
+[16-Jun-2020 09:09:57.172272] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.172377] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172399] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 161 exited on signal 15 (SIGTERM) after 24151.534322 seconds from start
+[16-Jun-2020 09:09:57.172412] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.172531] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172552] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 160 exited on signal 15 (SIGTERM) after 24151.534836 seconds from start
+[16-Jun-2020 09:09:57.172566] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.172732] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.172767] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 159 exited on signal 15 (SIGTERM) after 24151.535402 seconds from start
+[16-Jun-2020 09:09:57.172792] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173111] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.173151] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 158 exited on signal 15 (SIGTERM) after 24151.536141 seconds from start
+[16-Jun-2020 09:09:57.173166] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173315] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.173338] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 157 exited on signal 15 (SIGTERM) after 24151.536688 seconds from start
+[16-Jun-2020 09:09:57.173350] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173484] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.173507] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 156 exited on signal 15 (SIGTERM) after 24151.537200 seconds from start
+[16-Jun-2020 09:09:57.173519] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173620] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.173641] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 155 exited on signal 15 (SIGTERM) after 24151.537680 seconds from start
+[16-Jun-2020 09:09:57.173659] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173755] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.173783] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 153 exited on signal 15 (SIGTERM) after 24151.538557 seconds from start
+[16-Jun-2020 09:09:57.173798] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.173971] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174001] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 152 exited on signal 15 (SIGTERM) after 24151.539118 seconds from start
+[16-Jun-2020 09:09:57.174016] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.174244] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174279] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 25 exited on signal 15 (SIGTERM) after 24151.584635 seconds from start
+[16-Jun-2020 09:09:57.174309] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 57 exited on signal 15 (SIGTERM) after 24151.574255 seconds from start
+[16-Jun-2020 09:09:57.174338] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 151 exited on signal 15 (SIGTERM) after 24151.539818 seconds from start
+[16-Jun-2020 09:09:57.174352] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174366] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.174574] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174606] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 24 exited on signal 15 (SIGTERM) after 24151.585263 seconds from start
+[16-Jun-2020 09:09:57.174642] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 150 exited on signal 15 (SIGTERM) after 24151.540456 seconds from start
+[16-Jun-2020 09:09:57.174667] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 56 exited on signal 15 (SIGTERM) after 24151.574950 seconds from start
+[16-Jun-2020 09:09:57.174680] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174692] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.174705] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.176173] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.176211] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 7 exited on signal 15 (SIGTERM) after 24151.592652 seconds from start
+[16-Jun-2020 09:09:57.176242] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 17 exited on signal 15 (SIGTERM) after 24151.589073 seconds from start
+[16-Jun-2020 09:09:57.176265] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 18 exited on signal 15 (SIGTERM) after 24151.588780 seconds from start
+[16-Jun-2020 09:09:57.176288] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 20 exited on signal 15 (SIGTERM) after 24151.588171 seconds from start
+[16-Jun-2020 09:09:57.176312] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 21 exited on signal 15 (SIGTERM) after 24151.587903 seconds from start
+[16-Jun-2020 09:09:57.176335] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 22 exited on signal 15 (SIGTERM) after 24151.587611 seconds from start
+[16-Jun-2020 09:09:57.176359] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 23 exited on signal 15 (SIGTERM) after 24151.587314 seconds from start
+[16-Jun-2020 09:09:57.176393] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 53 exited on signal 15 (SIGTERM) after 24151.577668 seconds from start
+[16-Jun-2020 09:09:57.176417] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 54 exited on signal 15 (SIGTERM) after 24151.577365 seconds from start
+[16-Jun-2020 09:09:57.176447] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 55 exited on signal 15 (SIGTERM) after 24151.577070 seconds from start
+[16-Jun-2020 09:09:57.176477] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 146 exited on signal 15 (SIGTERM) after 24151.543766 seconds from start
+[16-Jun-2020 09:09:57.176503] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 147 exited on signal 15 (SIGTERM) after 24151.543380 seconds from start
+[16-Jun-2020 09:09:57.176535] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 148 exited on signal 15 (SIGTERM) after 24151.543061 seconds from start
+[16-Jun-2020 09:09:57.176562] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 19 exited on signal 15 (SIGTERM) after 24151.588759 seconds from start
+[16-Jun-2020 09:09:57.176585] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 52 exited on signal 15 (SIGTERM) after 24151.578177 seconds from start
+[16-Jun-2020 09:09:57.176606] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 149 exited on signal 15 (SIGTERM) after 24151.542768 seconds from start
+[16-Jun-2020 09:09:57.176617] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.176627] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.176637] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.176724] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.176757] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 145 exited on signal 15 (SIGTERM) after 24151.544413 seconds from start
+[16-Jun-2020 09:09:57.176806] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 51 exited on signal 15 (SIGTERM) after 24151.578709 seconds from start
+[16-Jun-2020 09:09:57.176821] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.176834] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177028] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177053] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 6 exited on signal 15 (SIGTERM) after 24151.593782 seconds from start
+[16-Jun-2020 09:09:57.177068] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177118] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177140] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 50 exited on signal 15 (SIGTERM) after 24151.579380 seconds from start
+[16-Jun-2020 09:09:57.177166] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 144 exited on signal 15 (SIGTERM) after 24151.545173 seconds from start
+[16-Jun-2020 09:09:57.177178] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177361] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177391] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 142 exited on signal 15 (SIGTERM) after 24151.546108 seconds from start
+[16-Jun-2020 09:09:57.177414] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 49 exited on signal 15 (SIGTERM) after 24151.579985 seconds from start
+[16-Jun-2020 09:09:57.177424] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177434] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177569] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177589] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 141 exited on signal 15 (SIGTERM) after 24151.546643 seconds from start
+[16-Jun-2020 09:09:57.177600] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177629] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177646] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 48 exited on signal 15 (SIGTERM) after 24151.580543 seconds from start
+[16-Jun-2020 09:09:57.177663] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177753] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177785] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 140 exited on signal 15 (SIGTERM) after 24151.547190 seconds from start
+[16-Jun-2020 09:09:57.177800] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.177866] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.177889] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 47 exited on signal 15 (SIGTERM) after 24151.581124 seconds from start
+[16-Jun-2020 09:09:57.177901] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178028] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178054] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 139 exited on signal 15 (SIGTERM) after 24151.547799 seconds from start
+[16-Jun-2020 09:09:57.178067] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178217] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178248] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 26 exited on signal 15 (SIGTERM) after 24151.588289 seconds from start
+[16-Jun-2020 09:09:57.178275] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 46 exited on signal 15 (SIGTERM) after 24151.581861 seconds from start
+[16-Jun-2020 09:09:57.178296] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 138 exited on signal 15 (SIGTERM) after 24151.548405 seconds from start
+[16-Jun-2020 09:09:57.178306] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178315] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178324] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178484] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178503] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 45 exited on signal 15 (SIGTERM) after 24151.582428 seconds from start
+[16-Jun-2020 09:09:57.178523] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 137 exited on signal 15 (SIGTERM) after 24151.548997 seconds from start
+[16-Jun-2020 09:09:57.178533] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178542] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178689] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178708] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 136 exited on signal 15 (SIGTERM) after 24151.549524 seconds from start
+[16-Jun-2020 09:09:57.178723] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178731] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178749] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 44 exited on signal 15 (SIGTERM) after 24151.583013 seconds from start
+[16-Jun-2020 09:09:57.178759] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.178915] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.178939] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 135 exited on signal 15 (SIGTERM) after 24151.550105 seconds from start
+[16-Jun-2020 09:09:57.178949] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179034] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179053] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 43 exited on signal 15 (SIGTERM) after 24151.583650 seconds from start
+[16-Jun-2020 09:09:57.179064] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179111] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179130] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 134 exited on signal 15 (SIGTERM) after 24151.550661 seconds from start
+[16-Jun-2020 09:09:57.179141] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179262] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179286] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 42 exited on signal 15 (SIGTERM) after 24151.584211 seconds from start
+[16-Jun-2020 09:09:57.179298] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179311] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179333] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 133 exited on signal 15 (SIGTERM) after 24151.551211 seconds from start
+[16-Jun-2020 09:09:57.179345] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179461] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179478] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 41 exited on signal 15 (SIGTERM) after 24151.584736 seconds from start
+[16-Jun-2020 09:09:57.179488] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179615] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179633] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 132 exited on signal 15 (SIGTERM) after 24151.551870 seconds from start
+[16-Jun-2020 09:09:57.179643] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179667] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179683] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 40 exited on signal 15 (SIGTERM) after 24151.585274 seconds from start
+[16-Jun-2020 09:09:57.179693] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179884] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179903] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 39 exited on signal 15 (SIGTERM) after 24151.585829 seconds from start
+[16-Jun-2020 09:09:57.179913] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.179927] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.179945] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 131 exited on signal 15 (SIGTERM) after 24151.552538 seconds from start
+[16-Jun-2020 09:09:57.179955] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180089] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180107] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 38 exited on signal 15 (SIGTERM) after 24151.586368 seconds from start
+[16-Jun-2020 09:09:57.180117] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180128] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180147] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 130 exited on signal 15 (SIGTERM) after 24151.553089 seconds from start
+[16-Jun-2020 09:09:57.180156] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180346] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180367] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 37 exited on signal 15 (SIGTERM) after 24151.586955 seconds from start
+[16-Jun-2020 09:09:57.180389] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 129 exited on signal 15 (SIGTERM) after 24151.553693 seconds from start
+[16-Jun-2020 09:09:57.180399] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180540] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180559] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 128 exited on signal 15 (SIGTERM) after 24151.554211 seconds from start
+[16-Jun-2020 09:09:57.180582] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 36 exited on signal 15 (SIGTERM) after 24151.587490 seconds from start
+[16-Jun-2020 09:09:57.180592] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180601] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180782] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180812] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 127 exited on signal 15 (SIGTERM) after 24151.554806 seconds from start
+[16-Jun-2020 09:09:57.180824] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180846] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.180868] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 35 exited on signal 15 (SIGTERM) after 24151.588085 seconds from start
+[16-Jun-2020 09:09:57.180879] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.180992] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181011] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 126 exited on signal 15 (SIGTERM) after 24151.555375 seconds from start
+[16-Jun-2020 09:09:57.181021] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181075] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181091] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 34 exited on signal 15 (SIGTERM) after 24151.588629 seconds from start
+[16-Jun-2020 09:09:57.181101] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181193] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181212] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 125 exited on signal 15 (SIGTERM) after 24151.555918 seconds from start
+[16-Jun-2020 09:09:57.181226] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181312] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181333] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 33 exited on signal 15 (SIGTERM) after 24151.589170 seconds from start
+[16-Jun-2020 09:09:57.181344] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181436] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181458] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 124 exited on signal 15 (SIGTERM) after 24151.556498 seconds from start
+[16-Jun-2020 09:09:57.181467] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181511] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181528] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 32 exited on signal 15 (SIGTERM) after 24151.589687 seconds from start
+[16-Jun-2020 09:09:57.181538] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181662] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181684] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 123 exited on signal 15 (SIGTERM) after 24151.557074 seconds from start
+[16-Jun-2020 09:09:57.181694] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181728] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181746] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 31 exited on signal 15 (SIGTERM) after 24151.590228 seconds from start
+[16-Jun-2020 09:09:57.181756] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181886] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181910] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 121 exited on signal 15 (SIGTERM) after 24151.558014 seconds from start
+[16-Jun-2020 09:09:57.181920] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.181946] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.181962] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 30 exited on signal 15 (SIGTERM) after 24151.590756 seconds from start
+[16-Jun-2020 09:09:57.181972] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182062] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182080] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 120 exited on signal 15 (SIGTERM) after 24151.558548 seconds from start
+[16-Jun-2020 09:09:57.182090] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182153] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182170] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 29 exited on signal 15 (SIGTERM) after 24151.591271 seconds from start
+[16-Jun-2020 09:09:57.182179] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182305] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182324] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 119 exited on signal 15 (SIGTERM) after 24151.559137 seconds from start
+[16-Jun-2020 09:09:57.182333] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182352] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182372] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 28 exited on signal 15 (SIGTERM) after 24151.591792 seconds from start
+[16-Jun-2020 09:09:57.182383] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182531] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182554] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 118 exited on signal 15 (SIGTERM) after 24151.559714 seconds from start
+[16-Jun-2020 09:09:57.182573] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 27 exited on signal 15 (SIGTERM) after 24151.592307 seconds from start
+[16-Jun-2020 09:09:57.182582] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182590] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182749] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182767] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 117 exited on signal 15 (SIGTERM) after 24151.560284 seconds from start
+[16-Jun-2020 09:09:57.182784] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.182946] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.182969] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 82 exited on signal 15 (SIGTERM) after 24151.572456 seconds from start
+[16-Jun-2020 09:09:57.182988] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 116 exited on signal 15 (SIGTERM) after 24151.560843 seconds from start
+[16-Jun-2020 09:09:57.182997] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183005] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.183168] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183185] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 81 exited on signal 15 (SIGTERM) after 24151.573053 seconds from start
+[16-Jun-2020 09:09:57.183203] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 115 exited on signal 15 (SIGTERM) after 24151.561391 seconds from start
+[16-Jun-2020 09:09:57.183217] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.183388] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183410] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 79 exited on signal 15 (SIGTERM) after 24151.573974 seconds from start
+[16-Jun-2020 09:09:57.183432] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 114 exited on signal 15 (SIGTERM) after 24151.561982 seconds from start
+[16-Jun-2020 09:09:57.183442] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183451] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.183600] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183619] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 78 exited on signal 15 (SIGTERM) after 24151.574517 seconds from start
+[16-Jun-2020 09:09:57.183637] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 113 exited on signal 15 (SIGTERM) after 24151.562533 seconds from start
+[16-Jun-2020 09:09:57.183646] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.183825] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183846] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 112 exited on signal 15 (SIGTERM) after 24151.563093 seconds from start
+[16-Jun-2020 09:09:57.183855] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.183866] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.183884] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 76 exited on signal 15 (SIGTERM) after 24151.575492 seconds from start
+[16-Jun-2020 09:09:57.183893] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184043] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184062] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 111 exited on signal 15 (SIGTERM) after 24151.563642 seconds from start
+[16-Jun-2020 09:09:57.184083] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 75 exited on signal 15 (SIGTERM) after 24151.576034 seconds from start
+[16-Jun-2020 09:09:57.184091] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184099] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184250] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184267] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 110 exited on signal 15 (SIGTERM) after 24151.564179 seconds from start
+[16-Jun-2020 09:09:57.184276] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184356] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184373] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 74 exited on signal 15 (SIGTERM) after 24151.576693 seconds from start
+[16-Jun-2020 09:09:57.184382] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184448] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184470] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 108 exited on signal 15 (SIGTERM) after 24151.565036 seconds from start
+[16-Jun-2020 09:09:57.184480] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184628] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184647] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 73 exited on signal 15 (SIGTERM) after 24151.577319 seconds from start
+[16-Jun-2020 09:09:57.184671] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 107 exited on signal 15 (SIGTERM) after 24151.565576 seconds from start
+[16-Jun-2020 09:09:57.184683] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184692] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.184941] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184964] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 72 exited on signal 15 (SIGTERM) after 24151.577971 seconds from start
+[16-Jun-2020 09:09:57.184982] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 106 exited on signal 15 (SIGTERM) after 24151.566264 seconds from start
+[16-Jun-2020 09:09:57.184991] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.184998] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.185163] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185181] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 70 exited on signal 15 (SIGTERM) after 24151.578899 seconds from start
+[16-Jun-2020 09:09:57.185198] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 105 exited on signal 15 (SIGTERM) after 24151.566827 seconds from start
+[16-Jun-2020 09:09:57.185207] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.185374] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185393] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 104 exited on signal 15 (SIGTERM) after 24151.567355 seconds from start
+[16-Jun-2020 09:09:57.185416] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 69 exited on signal 15 (SIGTERM) after 24151.579479 seconds from start
+[16-Jun-2020 09:09:57.185425] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185432] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.185603] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185637] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 103 exited on signal 15 (SIGTERM) after 24151.567935 seconds from start
+[16-Jun-2020 09:09:57.185660] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 68 exited on signal 15 (SIGTERM) after 24151.581832 seconds from start
+[16-Jun-2020 09:09:57.185670] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185679] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.185959] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.185987] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 62 exited on signal 15 (SIGTERM) after 24151.584241 seconds from start
+[16-Jun-2020 09:09:57.186004] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186013] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186038] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 67 exited on signal 15 (SIGTERM) after 24151.582567 seconds from start
+[16-Jun-2020 09:09:57.186049] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186155] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186181] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 102 exited on signal 15 (SIGTERM) after 24151.568831 seconds from start
+[16-Jun-2020 09:09:57.186192] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186247] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186270] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 65 exited on signal 15 (SIGTERM) after 24151.583526 seconds from start
+[16-Jun-2020 09:09:57.186281] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186397] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186420] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 61 exited on signal 15 (SIGTERM) after 24151.585000 seconds from start
+[16-Jun-2020 09:09:57.186440] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186467] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186491] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 101 exited on signal 15 (SIGTERM) after 24151.569472 seconds from start
+[16-Jun-2020 09:09:57.186501] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186543] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186565] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 64 exited on signal 15 (SIGTERM) after 24151.584155 seconds from start
+[16-Jun-2020 09:09:57.186576] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.186788] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186821] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 60 exited on signal 15 (SIGTERM) after 24151.585730 seconds from start
+[16-Jun-2020 09:09:57.186846] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 100 exited on signal 15 (SIGTERM) after 24151.570168 seconds from start
+[16-Jun-2020 09:09:57.186873] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 63 exited on signal 15 (SIGTERM) after 24151.584785 seconds from start
+[16-Jun-2020 09:09:57.186882] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186891] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.186899] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.187127] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.187151] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 59 exited on signal 15 (SIGTERM) after 24151.586401 seconds from start
+[16-Jun-2020 09:09:57.187161] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.187237] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.187261] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 89 exited on signal 15 (SIGTERM) after 24151.574391 seconds from start
+[16-Jun-2020 09:09:57.187286] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 99 exited on signal 15 (SIGTERM) after 24151.570953 seconds from start
+[16-Jun-2020 09:09:57.187296] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.187475] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.187497] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 58 exited on signal 15 (SIGTERM) after 24151.587096 seconds from start
+[16-Jun-2020 09:09:57.187507] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.187618] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.187641] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 88 exited on signal 15 (SIGTERM) after 24151.575109 seconds from start
+[16-Jun-2020 09:09:57.187665] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 98 exited on signal 15 (SIGTERM) after 24151.571668 seconds from start
+[16-Jun-2020 09:09:57.187675] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.187973] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188002] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 77 exited on signal 15 (SIGTERM) after 24151.579263 seconds from start
+[16-Jun-2020 09:09:57.188013] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188083] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188107] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 97 exited on signal 15 (SIGTERM) after 24151.572453 seconds from start
+[16-Jun-2020 09:09:57.188122] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188200] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188223] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 80 exited on signal 15 (SIGTERM) after 24151.578429 seconds from start
+[16-Jun-2020 09:09:57.188238] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188251] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188274] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 87 exited on signal 15 (SIGTERM) after 24151.576060 seconds from start
+[16-Jun-2020 09:09:57.188301] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 96 exited on signal 15 (SIGTERM) after 24151.572984 seconds from start
+[16-Jun-2020 09:09:57.188310] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188318] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188553] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188577] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 143 exited on signal 15 (SIGTERM) after 24151.556950 seconds from start
+[16-Jun-2020 09:09:57.188587] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188631] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188652] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 86 exited on signal 15 (SIGTERM) after 24151.576764 seconds from start
+[16-Jun-2020 09:09:57.188675] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 95 exited on signal 15 (SIGTERM) after 24151.573692 seconds from start
+[16-Jun-2020 09:09:57.188684] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188692] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.188901] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.188924] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 84 exited on signal 15 (SIGTERM) after 24151.577698 seconds from start
+[16-Jun-2020 09:09:57.188934] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.189015] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.189035] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 85 exited on signal 15 (SIGTERM) after 24151.577484 seconds from start
+[16-Jun-2020 09:09:57.189058] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 94 exited on signal 15 (SIGTERM) after 24151.574426 seconds from start
+[16-Jun-2020 09:09:57.189067] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.189076] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.189242] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.189266] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 83 exited on signal 15 (SIGTERM) after 24151.578369 seconds from start
+[16-Jun-2020 09:09:57.189275] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.189363] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.189385] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 91 exited on signal 15 (SIGTERM) after 24151.575821 seconds from start
+[16-Jun-2020 09:09:57.189408] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 93 exited on signal 15 (SIGTERM) after 24151.575113 seconds from start
+[16-Jun-2020 09:09:57.189417] DEBUG: pid 1, fpm_event_loop(), line 419: event module triggered 1 events
+[16-Jun-2020 09:09:57.189589] DEBUG: pid 1, fpm_got_signal(), line 76: received SIGCHLD
+[16-Jun-2020 09:09:57.189609] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 90 exited on signal 15 (SIGTERM) after 24151.576398 seconds from start
+[16-Jun-2020 09:09:57.189630] DEBUG: pid 1, fpm_children_bury(), line 252: [pool www] child 92 exited on signal 15 (SIGTERM) after 24151.575679 seconds from start
+[16-Jun-2020 09:09:57.189636] NOTICE: pid 1, fpm_pctl_exit(), line 70: exiting, bye-bye!
