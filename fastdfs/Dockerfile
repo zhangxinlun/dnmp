@@ -1,0 +1,1 @@
+Dockerfile-fastdfsv6.06-alpine

@@ -1,0 +1,73 @@
+FROM alpine:3.6
+RUN echo -e "\
+https://mirrors.aliyun.com/alpine/v3.6/main\n\
+https://mirrors.aliyun.com/alpine/v3.6/community\n\
+">/etc/apk/repositories
+ARG TZ="Asia/Shanghai"
+
+ENV TZ ${TZ}
+
+# 安装准备
+RUN    apk update \
+  && apk add --no-cache --virtual .build-deps \
+  bash gcc libc-dev make openssl-dev pcre-dev zlib-dev linux-headers curl gnupg libxslt-dev gd-dev geoip-dev git \
+  && apk add bash tzdata \
+  && ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime \
+  && echo ${TZ} > /etc/timezone \
+  && rm -rf /var/cache/apk/*
+
+
+# 下载并安装fastdfs
+WORKDIR /opt
+#RUN  git clone https://gitee.com/fastdfs100/libfastcommon.git &&  cd libfastcommon && ./make.sh && ./make.sh install
+#RUN  git clone https://gitee.com/fastdfs100/fastdfs.git &&  cd fastdfs && git checkout ${FASTDFS_VERSION} && ./make.sh && ./make.sh install
+ADD fdfs_pkg/* /opt/
+RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
+    && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install \
+
+# 配置fastdfs
+WORKDIR /etc/fdfs/
+ENV NGINX_WEB_PORT 8888
+ENV TRACKER_SERVER_IP_ADDRESS 172.16.0.10
+ENV TRACKER_SERVER_PORT 22122
+ENV TRACKER_BASE_PATH /tracker
+ENV STORAGE_SERVER_PORT 23000
+ENV STORAGE_BASE_PATH /storage
+ENV STORAGE_GROUP_NAME group1
+ENV PATH0 /images
+ENV STORAGE_SUBDIR_COUNT_PER_PATH 10
+ENV NGINX_VERSION 1.16.1
+ENV FASTDFS_VERSION V6.06
+
+# 复制配置文件
+
+RUN mkdir -p $TRACKER_BASE_PATH $STORAGE_BASE_PATH  $STORAGE_BASE_PATH$PATH0 $STORAGE_BASE_PATH/data \
+  && cd /etc/fdfs/ && for i in *.sample;do cp ${i} `echo ${i} | sed 's/\.sample//'` ;done
+
+
+# 获取nginx源码，与fastdfs插件一起编译
+#WORKDIR /opt
+#RUN git clone https://gitee.com/fastdfs100/fastdfs-nginx-module.git
+#RUN curl -fSL http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz -o nginx-${NGINX_VERSION}.tar.gz
+#RUN tar zxf nginx-${NGINX_VERSION}.tar.gz \
+#  && chmod u+x ${HOME}/fastdfs-nginx-module/src/config \
+#  && sed -i "s|ngx_module_incs.*$|ngx_module_incs=\"/usr/include/fastdfs /usr/include/fastcommon/\"|g" ${HOME}/fastdfs-nginx-module/src/config \
+#  && sed -i "s|CORE_INCS.*$|CORE_INCS=\"$CORE_INCS /usr/include/fastdfs /usr/include/fastcommon/\"|g" ${HOME}/fastdfs-nginx-module/src/config \
+#  && cd nginx-${NGINX_VERSION} \
+#  && ./configure --add-module=${HOME}/fastdfs-nginx-module/src \
+#  && make -j$(nproc) && make install
+
+# 配置nginx
+#RUN cp ${HOME}/fastdfs-nginx-module/src/mod_fastdfs.conf /etc/fdfs/ \
+#  && cd ${HOME}/fastdfs/conf/ \
+#  && cp http.conf mime.types anti-steal.jpg /etc/fdfs/ 
+
+#COPY nginx.conf /usr/local/nginx/conf/nginx.conf
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod u+x /entrypoint.sh
+
+
+# 清理文件
+RUN rm -rf /opt/*
+
+ENTRYPOINT ["/entrypoint.sh"]

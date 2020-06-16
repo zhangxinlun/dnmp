@@ -16,9 +16,9 @@ read -r -p $'-----此脚本将使用当前目录下的docker-compose.yaml 构建
 case $input in
     [yY][eE][sS]|[yY])
 		echo "-----开始构建docker镜像-----"
-		sudo docker-compose up -d --build
+		docker-compose up -d --build
 		echo "-----镜像 构建成功-----"
-		sudo docker-compose ps -a 
+		docker-compose ps -a 
 		;;
 
     [nN][oO]|[nN])
