@@ -6,6 +6,8 @@ FROM ubuntu:20.04
 # http://releases.ubuntu.com/  &  https://hub.docker.com/_/ubuntu
 LABEL MAINTAINER "Lun"
 ENV OPENRESTY_VER 1.15.8.3
+ENV YASM_VER 1.3.0
+ENV FFMPEG_VER 4.2.3
 ENV BUILD_TOOLS libpcre3-dev  libssl-dev perl make build-essential curl zlib1g.dev bc
 ENV PATH $PATH:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin
 
@@ -21,14 +23,16 @@ WORKDIR /opt
 #ADD openresty-${OPENRESTY_VER}.tar.gz /opt/
 ADD ngx-extension/* /opt/
 RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
-    cd /opt/fastdfs-master && ./make.sh clean && ./make.sh && ./make.sh install \
-    ln -s /usr/lib64/libfdfsclient.so /usr/lib/libfdfsclient.so \
-    ln -s /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so \
-    ln -s /usr/lib64/libfastcommon.so /usr/lib/libfastcommon.so \
-    ln -s /usr/lib64/libfdfsclient.so /usr/local/lib/libfdfsclient.so \
-    ln -sv /usr/include/fastcommon /usr/local/include/fastcommon \
-    ln -sv /usr/include/fastdfs /usr/local/include/fastdfs \
-    ln -sv /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so
+    && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install \
+    && cd /opt/yasm-${YASM_VER} && ./configure && make -j$(nproc)&& make install \
+    && cd /opt/ffmpeg-${FFMPEG_VER} && ./configure --prefix=/usr/local/ffmpeg/ --enable-shared --enable-thumb  --disable-ffplay --enable-postproc --enable-gpl && make -j$(nproc) && make install 
+#    ln -s /usr/lib64/libfdfsclient.so /usr/lib/libfdfsclient.so \
+#    ln -s /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so \
+#    ln -s /usr/lib64/libfastcommon.so /usr/lib/libfastcommon.so \
+#    ln -s /usr/lib64/libfdfsclient.so /usr/local/lib/libfdfsclient.so \
+#    ln -sv /usr/include/fastcommon /usr/local/include/fastcommon \
+#    ln -sv /usr/include/fastdfs /usr/local/include/fastdfs \
+#    ln -sv /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so
 RUN cd /opt/openresty-${OPENRESTY_VER} \
     && ./configure \
         --with-http_stub_status_module \

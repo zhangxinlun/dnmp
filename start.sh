@@ -15,9 +15,9 @@ fi
 read -r -p $'-----此脚本将使用当前目录下的docker-compose.yaml 构建nginx,php-fpm,redis,mysql的docker镜像-----\n-----请确认docker-compose.yaml 文件中各服务端口号、IP、数据映射目录是否已配置-----\n-----是否继续构建? [Y/N]----- ' input
 case $input in
     [yY][eE][sS]|[yY])
-		echo "-----开始构建fastdfs5.11 的docker镜像-----"
+		echo "-----开始构建docker镜像-----"
 		sudo docker-compose up -d --build
-		echo "-----fastdfs5.11 的docker镜像 构建成功-----"
+		echo "-----镜像 构建成功-----"
 		sudo docker-compose ps -a 
 		;;
 

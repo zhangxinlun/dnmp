@@ -2,44 +2,42 @@ FROM centos:7
 LABEL MAINTAINER jy.com
 
 ENV OPENRESTY_VER 1.15.8.3
+ENV YASM_VER 1.3.0
+ENV FFMPEG_VER 4.2.3
+ENV BUILD_TOOLS pcre-devel openssl-devel gcc  wget perl make
 
 RUN curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
 RUN yum makecache 
 #RUN yum update -y
-RUN yum install -y pcre-devel openssl-devel gcc curl wget perl make \
+RUN yum install -y ${BUILD_TOOLS} \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
 WORKDIR /opt
-RUN curl -k -O https://openresty.org/download/openresty-${OPENRESTY_VER}.tar.gz \
-    && tar zxvf *.tar.gz
+#RUN curl -k -O https://openresty.org/download/openresty-${OPENRESTY_VER}.tar.gz \
+#    && tar zxvf *.tar.gz
 #ADD openresty-${OPENRESTY_VER}.tar.gz /opt/
 ADD ngx-extension/*.tar.gz /opt/ 
 RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
-    cd /opt/fastdfs-master && ./make.sh clean && ./make.sh && ./make.sh install \
-    ln -s /usr/lib64/libfdfsclient.so /usr/lib/libfdfsclient.so \
-    ln -s /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so \
-    ln -s /usr/lib64/libfastcommon.so /usr/lib/libfastcommon.so \
-    ln -s /usr/lib64/libfdfsclient.so /usr/local/lib/libfdfsclient.so \
-    ln -sv /usr/include/fastcommon /usr/local/include/fastcommon \
-    ln -sv /usr/include/fastdfs /usr/local/include/fastdfs \
-    ln -sv /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so 
+    && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install \
+    && cd /opt/yasm-${YASM_VER} && ./configure && make -j$(nproc)&& make install \
+    && cd /opt/ffmpeg-${FFMPEG_VER} && ./configure --prefix=/usr/local/ffmpeg/ --enable-shared --enable-thumb  --disable-ffplay --enable-postproc --enable-gpl && make -j$(nproc) && make install 
+
 RUN cd /opt/openresty-${OPENRESTY_VER} \
     && ./configure \
 	--with-http_stub_status_module \
 	--user=www-data \
 	--group=www-data \
 	--add-module=/opt/fastdfs-nginx-module/src 
-RUN cd /opt/openresty-${OPENRESTY_VER} && gmake -j$(nproc) 
-RUN gmake install 
+RUN cd /opt/openresty-${OPENRESTY_VER} && make -j$(nproc) 
+RUN cd /opt/openresty-${OPENRESTY_VER} &&  make install 
 RUN useradd www-data \
     && rm -rf /opt/* \
     && ln -sf /dev/stdout /usr/local/openresty/nginx/logs/access.log \
     && ln -sf /dev/stderr /usr/local/openresty/nginx/logs/error.log \
     && yum clean all \
-    && yum remove gcc make -y \
+    && yum remove ${BUILD_TOOLS} -y \
     && rm -rf /var/cache/yum/* 
 
-RUN mkdir -p /usr/local/openresty/nginx/conf/conf.d
-ENV PATH $PATH:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin
+ENV PATH $PATH:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin:/usr/local/ffmpeg/bin
 ENTRYPOINT ["nginx","-g","daemon off;"]
 
 EXPOSE 80 443
