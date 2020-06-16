@@ -16,9 +16,9 @@ services:
      - php-fpm:fpm
     privileged: true
     environment:
-       #TZ: "Asia/Shanghai"
-     - NGINX_HOST=jr.com
-     - NGINX_PORT=80
+     - TZ= "Asia/Shanghai"
+     - NGINX_HOST= "jr.com"
+     - NGINX_PORT= "80"
     restart: always
     depends_on:
      - php-fpm
@@ -29,6 +29,8 @@ services:
     hostname: php-fpm
     build: ./php
     privileged: true
+    environment:
+     - TZ= "Asia/Shanghai"
     volumes:
      - ./code/:/app/:rw
      #- ./php/php-ini.d/php.ini:/usr/local/etc/php/conf.d/php.ini:ro    #php.ini dir
@@ -51,6 +53,8 @@ services:
     container_name: mysql
     hostname: mysql
     build: ./mysql
+    environment:
+     - TZ= "Asia/Shanghai"
     ports: 
      - "3306:3306"
     volumes:
@@ -63,6 +67,8 @@ services:
     container_name: redis
     hostname: redis
     #build: ./redis
+    environment:
+     - TZ= "Asia/Shanghai"
     image: redis:latest
     privileged: true
     environment:
@@ -78,21 +84,6 @@ services:
     restart: always
     ports:
       - '6379:6379'
-      - '26379:26379'
-    networks:
-      - net-lnmp
-  softether:
-    image: alpine:latest
-    links:
-      - "redis:redisdb"
-    container_name: alpine
-    restart: always
-    ports:
-      - '14433:443'
-      #- '1194:1194'
-    depends_on:
-      - redis
-      - mysql
     networks:
       - net-lnmp
 networks:
@@ -100,5 +91,5 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: 192.168.0.0/24
+        - subnet: 172.16.0.0/24
 

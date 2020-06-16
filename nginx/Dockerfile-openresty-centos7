@@ -12,11 +12,25 @@ WORKDIR /opt
 RUN curl -k -O https://openresty.org/download/openresty-${OPENRESTY_VER}.tar.gz \
     && tar zxvf *.tar.gz
 #ADD openresty-${OPENRESTY_VER}.tar.gz /opt/
+ADD ngx-extension/*.tar.gz /opt/ 
+RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
+    cd /opt/fastdfs-master && ./make.sh clean && ./make.sh && ./make.sh install \
+    ln -s /usr/lib64/libfdfsclient.so /usr/lib/libfdfsclient.so \
+    ln -s /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so \
+    ln -s /usr/lib64/libfastcommon.so /usr/lib/libfastcommon.so \
+    ln -s /usr/lib64/libfdfsclient.so /usr/local/lib/libfdfsclient.so \
+    ln -sv /usr/include/fastcommon /usr/local/include/fastcommon \
+    ln -sv /usr/include/fastdfs /usr/local/include/fastdfs \
+    ln -sv /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so 
 RUN cd /opt/openresty-${OPENRESTY_VER} \
-    && ./configure --with-http_stub_status_module --user=www-data --group=www-data \
-    && gmake -j$(nproc) \
-    && gmake install \
-    && useradd www-data \
+    && ./configure \
+	--with-http_stub_status_module \
+	--user=www-data \
+	--group=www-data \
+	--add-module=/opt/fastdfs-nginx-module/src 
+RUN cd /opt/openresty-${OPENRESTY_VER} && gmake -j$(nproc) 
+RUN gmake install 
+RUN useradd www-data \
     && rm -rf /opt/* \
     && ln -sf /dev/stdout /usr/local/openresty/nginx/logs/access.log \
     && ln -sf /dev/stderr /usr/local/openresty/nginx/logs/error.log \
