@@ -347,3 +347,51 @@ ngx_http_fastdfs_process_init pid=7
 [2020-06-16 12:36:40] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
 2020/06/16 12:36:40 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
 2020/06/16 12:36:40 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-16 12:54:36] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 12:54:36] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/16 12:54:36 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=8
+[2020-06-16 12:54:36] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 12:54:36] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/16 12:54:36 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=7
+[2020-06-16 12:54:36] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 12:54:36] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=9
+[2020-06-16 12:54:36] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 12:54:36] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/16 12:54:36 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/16 12:54:36 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-16 14:15:13] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 14:15:13] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=7
+[2020-06-16 14:15:13] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 14:15:13] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/16 14:15:13 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+2020/06/16 14:15:13 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=8
+[2020-06-16 14:15:13] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 14:15:13] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=9
+[2020-06-16 14:15:13] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-16 14:15:13] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/16 14:15:13 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+2020/06/16 14:15:13 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-17 00:58:04] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 00:58:04] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/17 00:58:04 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=9
+[2020-06-17 00:58:04] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 00:58:04] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=7
+ngx_http_fastdfs_process_init pid=8
+[2020-06-17 00:58:04] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 00:58:04] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+[2020-06-17 00:58:04] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 00:58:04] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/17 00:58:04 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+2020/06/17 00:58:04 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/17 00:58:04 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned

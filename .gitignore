@@ -1,4 +1,5 @@
-mysql/data/
 *.log
 logs/
-fastdfs/data/
+services/fastdfs/data/
+services/redis/data/
+services/mysql/data/

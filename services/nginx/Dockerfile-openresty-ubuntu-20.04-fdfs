@@ -46,7 +46,7 @@ RUN make -j$(nproc) \
     && make install \
     && apt-get purge -y ${BUILD_TOOLS} \
     && rm -rf /opt/* \
-    && mkdir -p /usr/local/openresty/nginx/conf/conf.d 
+    && mkdir -p /usr/local/openresty/nginx/conf/vhosts
 
 ENTRYPOINT ["nginx","-g","daemon off;"]
 
