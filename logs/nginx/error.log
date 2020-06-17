@@ -38,3 +38,6 @@ ngx_http_fastdfs_process_init pid=6
 2020/06/17 03:14:57 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
 2020/06/17 03:14:57 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
 2020/06/17 07:02:49 [emerg] 32#0: getpwnam("www-data") failed in /usr/local/openresty/nginx/conf/nginx.conf:1
+2020/06/17 07:30:44 [emerg] 32#0: getpwnam("www-data") failed in /usr/local/openresty/nginx/conf/nginx.conf:1
+2020/06/17 08:59:32 [emerg] 32#0: getpwnam("www-data") failed in /usr/local/openresty/nginx/conf/nginx.conf:1
+2020/06/17 09:54:31 [emerg] 34#0: getpwnam("www-data") failed in /usr/local/openresty/nginx/conf/nginx.conf:1
