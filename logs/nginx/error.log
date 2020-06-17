@@ -1,0 +1,40 @@
+2020/06/17 03:02:25 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:25 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:26 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:27 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:28 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:30 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:33 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:40 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:02:53 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:03:19 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:04:11 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:05:11 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:40 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:41 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:41 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:42 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:43 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:45 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:49 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:11:56 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:12:09 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:12:35 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/06/17 03:13:26 [emerg] 1#0: open() "/usr/local/openresty/nginx/conf/nginx.conf" failed (2: No such file or directory)
+ngx_http_fastdfs_process_init pid=8
+[2020-06-17 03:14:57] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 03:14:57] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=9
+[2020-06-17 03:14:57] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 03:14:57] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/17 03:14:57 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+2020/06/17 03:14:57 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=7
+[2020-06-17 03:14:57] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 03:14:57] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=6
+[2020-06-17 03:14:57] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-17 03:14:57] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/17 03:14:57 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/17 03:14:57 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+2020/06/17 07:02:49 [emerg] 32#0: getpwnam("www-data") failed in /usr/local/openresty/nginx/conf/nginx.conf:1

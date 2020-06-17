@@ -1,1 +1,1 @@
-Dockerfile-openresty-ubuntu-20.04-fdfs
+Dockerfile-fastdfsv6.06-alpine
