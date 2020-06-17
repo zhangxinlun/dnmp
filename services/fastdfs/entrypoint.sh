@@ -58,14 +58,14 @@ if [ "${SERVER}" == "tracker" ]; then
   tail -F /tracker/logs/trackerd.log
 # 如果启动命令中为storage,则启动stroage和nginx
 elif [[ "${SERVER}" == "storage" ]]; then
-  /etc/init.d/fdfs_storaged start
-  /usr/local/nginx/sbin/nginx
+#  /etc/init.d/fdfs_storaged start
+#  /usr/local/nginx/sbin/nginx
   tail -F /storage/logs/storaged.log
 else
   # 命令为空,默认启动所有的服务
   /etc/init.d/fdfs_trackerd start
   /etc/init.d/fdfs_storaged start
-  /usr/local/nginx/sbin/nginx
-  tail -F /usr/local/nginx/logs/access.log
+#  /usr/local/nginx/sbin/nginx
+#  tail -F /usr/local/nginx/logs/access.log
 fi
 exec "$@"
