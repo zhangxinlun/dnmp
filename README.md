@@ -1,4 +1,4 @@
-# [Docker Compose with OpenResty, PHP, Redsi, FastDFS , ELK , MySQL, NGINX](https://github.com/zhangxinlun/dnmp)
+# [Docker Compose with OpenResty/PHP/Redis/FastDFS/ELK/MySQL/NGINX](https://github.com/zhangxinlun/dnmp)
 
 ## What you'll build
 - A simple Boot application with MySQL and NGINX running inside Docker containers
