@@ -35,11 +35,11 @@ services:
         limits:
           cpus: '2'
           memory: 150M
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8888//nginx-status"]
-      interval: 1m10s
-      timeout: 5s
-      retries: 3
+    #healthcheck:
+    #  test: ["CMD", "curl", "-f", "http://localhost/nginx-status"]
+    #  interval: 1m10s
+    #  timeout: 5s
+    #  retries: 3
     #sysctls:
     #  net.core.somaxconn: 10240
     #  net.ipv4.tcp_syncookies: 0

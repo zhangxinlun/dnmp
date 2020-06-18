@@ -22,6 +22,7 @@ WORKDIR /opt
 #    && tar zxvf *.tar.gz
 #ADD openresty-${OPENRESTY_VER}.tar.gz /opt/
 ADD ngx-extension/* /opt/
+ADD entrypoint.sh /
 RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
     && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install \
     && cd /opt/yasm-${YASM_VER} && ./configure && make -j$(nproc)&& make install \
@@ -38,16 +39,17 @@ RUN cd /opt/openresty-${OPENRESTY_VER} \
         --with-http_stub_status_module \
         --user=www-data \
         --group=www-data \
-        --add-module=/opt/fastdfs-nginx-module/src
-
-RUN cd /opt/openresty-${OPENRESTY_VER} \
-#    && ./configure --with-http_stub_status_module \
-RUN make -j$(nproc) \
+        --add-module=/opt/fastdfs-nginx-module/src \
+    && make -j$(nproc) \
     && make install \
+    && cp /opt/fastdfs-nginx-module/src/mod_fastdfs.conf /etc/fdfs/ \
+    && cp /opt/fastdfs/conf/{http.conf,mime.types,anti-steal.jpg} /etc/fdfs/ \
     && apt-get purge -y ${BUILD_TOOLS} \
     && rm -rf /opt/* \
-    && mkdir -p /usr/local/openresty/nginx/conf/vhosts
+    && chmod u+x /entrypoint.sh
 
-ENTRYPOINT ["nginx","-g","daemon off;"]
+
+#ENTRYPOINT ["nginx","-g","daemon off;"]
+ENTRYPOINT ["/entrypoint.sh"]
 
 EXPOSE 80 443
