@@ -1,5 +1,8 @@
 version: '3.8'
 services:
+#
+#  nginx
+#
   nginx:
     container_name: nginx
     hostname: nginx
@@ -49,6 +52,9 @@ services:
      - php-fpm
     networks:
      - ${NETWORK_NAME}
+#
+#  PHP
+#
   php-fpm:
     container_name: php-fpm
     hostname: php-fpm
@@ -79,6 +85,9 @@ services:
      - mysql
     networks:
      - ${NETWORK_NAME}
+#
+#   mysql
+#
   mysql:
     container_name: mysql
     hostname: mysql
@@ -101,6 +110,9 @@ services:
     # MYSQL_ROOT_PASSWORD: MydbPwd123
     networks:
      - ${NETWORK_NAME}
+#
+#  redis
+#
   redis:
     container_name: redis
     hostname: redis
@@ -127,6 +139,9 @@ services:
       - '${REDIS_HOST_PORT}:6379'
     networks:
       - ${NETWORK_NAME}
+#
+#  FastDFS
+#
   fastdfs:
     container_name: fastdfs
     hostname: fastdfs
@@ -150,6 +165,9 @@ services:
     networks:
       jinr-dnmp-net:
         ipv4_address: ${FASTDFS_IP_ADDR}
+#
+#  Network
+#
 networks:
   jinr-dnmp-net:
     driver: bridge
