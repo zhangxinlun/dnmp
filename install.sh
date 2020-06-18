@@ -3,7 +3,7 @@
 echo "-----检测是否安装 docker-compose-----"
 if ! type docker-compose > /dev/null 2>&1; then
 	echo "Docker-compose 未安装，安装中 。。。";
-	sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+	sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 	sudo chmod +x /usr/local/bin/docker-compose
 	sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 	echo "-----完成安装docker-compose-----"
