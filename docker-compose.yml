@@ -36,7 +36,7 @@ services:
           cpus: '2'
           memory: 150M
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost"]
+      test: ["CMD", "curl", "-f", "http://localhost:8888//nginx-status"]
       interval: 1m10s
       timeout: 5s
       retries: 3
@@ -93,7 +93,7 @@ services:
     hostname: mysql
     #images: ${MYSQL_IMAGE}
     command: 
-      - default-authentication-plugin=${DEFAULT_AUTHENTICATION_PLUGIN}
+      - --default-authentication-plugin=${DEFAULT_AUTHENTICATION_PLUGIN}
     build: 
       context: ${MYSQL_BUILD}
       #args:
@@ -106,8 +106,6 @@ services:
     volumes:
      - ${MYSQL_DATA}:/var/lib/mysql/
      - ${MYSQL_CONF_FILE}:/etc/my.cnf
-    #environment:
-    # MYSQL_ROOT_PASSWORD: MydbPwd123
     networks:
      - ${NETWORK_NAME}
 #

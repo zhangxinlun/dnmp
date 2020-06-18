@@ -7857,3 +7857,1079 @@ ngx_http_fastdfs_process_init pid=5276
 2020/06/17 15:20:18 [error] 535#0: *298 directory index of "/app/" is forbidden, client: 127.0.0.1, server: ${nginx_host}, request: "GET / HTTP/1.1", host: "localhost"
 2020/06/17 15:21:28 [error] 535#0: *301 directory index of "/app/" is forbidden, client: 127.0.0.1, server: ${nginx_host}, request: "GET / HTTP/1.1", host: "localhost"
 2020/06/17 15:22:38 [error] 535#0: *303 directory index of "/app/" is forbidden, client: 127.0.0.1, server: ${nginx_host}, request: "GET / HTTP/1.1", host: "localhost"
+ngx_http_fastdfs_process_init pid=43
+ngx_http_fastdfs_process_init pid=46
+ngx_http_fastdfs_process_init pid=45
+ngx_http_fastdfs_process_init pid=44
+2020/06/18 06:53:07 [alert] 41#0: worker process 45 exited on signal 11
+2020/06/18 06:53:07 [alert] 41#0: worker process 43 exited on signal 11
+2020/06/18 06:53:07 [alert] 41#0: worker process 46 exited on signal 11
+2020/06/18 06:53:07 [alert] 41#0: worker process 44 exited on signal 11
+ngx_http_fastdfs_process_init pid=49
+ngx_http_fastdfs_process_init pid=47
+ngx_http_fastdfs_process_init pid=48
+ngx_http_fastdfs_process_init pid=50
+2020/06/18 06:53:14 [alert] 41#0: worker process 49 exited on signal 11
+ngx_http_fastdfs_process_init pid=51
+2020/06/18 06:53:16 [alert] 41#0: worker process 47 exited on signal 11
+2020/06/18 06:53:16 [alert] 41#0: worker process 48 exited on signal 11
+2020/06/18 06:53:16 [alert] 41#0: worker process 50 exited on signal 11
+ngx_http_fastdfs_process_init pid=52
+ngx_http_fastdfs_process_init pid=53
+ngx_http_fastdfs_process_init pid=54
+2020/06/18 06:53:23 [alert] 41#0: worker process 51 exited on signal 11
+ngx_http_fastdfs_process_init pid=55
+2020/06/18 06:53:25 [alert] 41#0: worker process 52 exited on signal 11
+2020/06/18 06:53:25 [alert] 41#0: worker process 53 exited on signal 11
+2020/06/18 06:53:25 [alert] 41#0: worker process 54 exited on signal 11
+ngx_http_fastdfs_process_init pid=56
+ngx_http_fastdfs_process_init pid=57
+ngx_http_fastdfs_process_init pid=58
+2020/06/18 06:53:32 [alert] 41#0: worker process 55 exited on signal 11
+ngx_http_fastdfs_process_init pid=59
+2020/06/18 06:53:32 [alert] 41#0: worker process 56 exited on signal 11
+2020/06/18 06:53:32 [alert] 41#0: worker process 57 exited on signal 11
+ngx_http_fastdfs_process_init pid=61
+ngx_http_fastdfs_process_init pid=60
+2020/06/18 06:53:34 [alert] 41#0: worker process 58 exited on signal 11
+ngx_http_fastdfs_process_init pid=62
+2020/06/18 06:53:34 [alert] 41#0: worker process 59 exited on signal 11
+2020/06/18 06:53:41 [alert] 41#0: worker process 61 exited on signal 11
+ngx_http_fastdfs_process_init pid=63
+2020/06/18 06:53:41 [alert] 41#0: worker process 60 exited on signal 11
+ngx_http_fastdfs_process_init pid=64
+ngx_http_fastdfs_process_init pid=65
+2020/06/18 06:53:43 [alert] 41#0: worker process 62 exited on signal 11
+ngx_http_fastdfs_process_init pid=66
+2020/06/18 06:53:43 [alert] 41#0: worker process 63 exited on signal 11
+2020/06/18 06:53:50 [alert] 41#0: worker process 64 exited on signal 11
+ngx_http_fastdfs_process_init pid=67
+2020/06/18 06:53:50 [alert] 41#0: worker process 65 exited on signal 11
+ngx_http_fastdfs_process_init pid=68
+ngx_http_fastdfs_process_init pid=69
+2020/06/18 06:53:50 [alert] 41#0: worker process 66 exited on signal 11
+ngx_http_fastdfs_process_init pid=70
+2020/06/18 06:53:59 [alert] 41#0: worker process 67 exited on signal 11
+2020/06/18 06:53:59 [alert] 41#0: worker process 68 exited on signal 11
+ngx_http_fastdfs_process_init pid=71
+2020/06/18 06:53:59 [alert] 41#0: worker process 69 exited on signal 11
+ngx_http_fastdfs_process_init pid=72
+2020/06/18 06:53:59 [alert] 41#0: worker process 70 exited on signal 11
+ngx_http_fastdfs_process_init pid=73
+ngx_http_fastdfs_process_init pid=74
+2020/06/18 06:54:06 [alert] 41#0: worker process 71 exited on signal 11
+ngx_http_fastdfs_process_init pid=75
+2020/06/18 06:54:08 [alert] 41#0: worker process 72 exited on signal 11
+2020/06/18 06:54:08 [alert] 41#0: worker process 73 exited on signal 11
+ngx_http_fastdfs_process_init pid=82
+2020/06/18 06:54:08 [alert] 41#0: worker process 74 exited on signal 11
+ngx_http_fastdfs_process_init pid=83
+ngx_http_fastdfs_process_init pid=84
+2020/06/18 06:54:15 [alert] 41#0: worker process 75 exited on signal 11
+ngx_http_fastdfs_process_init pid=85
+2020/06/18 06:54:15 [alert] 41#0: worker process 82 exited on signal 11
+ngx_http_fastdfs_process_init pid=86
+2020/06/18 06:54:17 [alert] 41#0: worker process 83 exited on signal 11
+2020/06/18 06:54:17 [alert] 41#0: worker process 84 exited on signal 11
+ngx_http_fastdfs_process_init pid=87
+ngx_http_fastdfs_process_init pid=88
+2020/06/18 06:54:24 [alert] 41#0: worker process 86 exited on signal 11
+2020/06/18 06:54:24 [alert] 41#0: worker process 85 exited on signal 11
+ngx_http_fastdfs_process_init pid=89
+ngx_http_fastdfs_process_init pid=90
+2020/06/18 06:54:26 [alert] 41#0: worker process 87 exited on signal 11
+2020/06/18 06:54:26 [alert] 41#0: worker process 88 exited on signal 11
+ngx_http_fastdfs_process_init pid=91
+ngx_http_fastdfs_process_init pid=92
+2020/06/18 06:54:33 [alert] 41#0: worker process 89 exited on signal 11
+2020/06/18 06:54:33 [alert] 41#0: worker process 90 exited on signal 11
+ngx_http_fastdfs_process_init pid=93
+ngx_http_fastdfs_process_init pid=94
+2020/06/18 06:54:33 [alert] 41#0: worker process 91 exited on signal 11
+ngx_http_fastdfs_process_init pid=95
+2020/06/18 06:54:35 [alert] 41#0: worker process 92 exited on signal 11
+ngx_http_fastdfs_process_init pid=96
+2020/06/18 06:54:42 [alert] 41#0: worker process 93 exited on signal 11
+2020/06/18 06:54:42 [alert] 41#0: worker process 94 exited on signal 11
+2020/06/18 06:54:42 [alert] 41#0: worker process 95 exited on signal 11
+ngx_http_fastdfs_process_init pid=97
+ngx_http_fastdfs_process_init pid=98
+ngx_http_fastdfs_process_init pid=99
+2020/06/18 06:54:44 [alert] 41#0: worker process 96 exited on signal 11
+ngx_http_fastdfs_process_init pid=100
+2020/06/18 06:54:51 [alert] 41#0: worker process 97 exited on signal 11
+2020/06/18 06:54:51 [alert] 41#0: worker process 98 exited on signal 11
+2020/06/18 06:54:51 [alert] 41#0: worker process 99 exited on signal 11
+ngx_http_fastdfs_process_init pid=101
+ngx_http_fastdfs_process_init pid=102
+2020/06/18 06:54:51 [alert] 41#0: worker process 100 exited on signal 11
+ngx_http_fastdfs_process_init pid=103
+ngx_http_fastdfs_process_init pid=104
+2020/06/18 06:55:00 [alert] 41#0: worker process 101 exited on signal 11
+2020/06/18 06:55:00 [alert] 41#0: worker process 102 exited on signal 11
+2020/06/18 06:55:00 [alert] 41#0: worker process 103 exited on signal 11
+2020/06/18 06:55:00 [alert] 41#0: worker process 104 exited on signal 11
+ngx_http_fastdfs_process_init pid=105
+ngx_http_fastdfs_process_init pid=107
+ngx_http_fastdfs_process_init pid=106
+ngx_http_fastdfs_process_init pid=108
+2020/06/18 06:55:07 [alert] 41#0: worker process 105 exited on signal 11
+ngx_http_fastdfs_process_init pid=109
+2020/06/18 06:55:09 [alert] 41#0: worker process 107 exited on signal 11
+2020/06/18 06:55:09 [alert] 41#0: worker process 106 exited on signal 11
+2020/06/18 06:55:09 [alert] 41#0: worker process 108 exited on signal 11
+ngx_http_fastdfs_process_init pid=110
+ngx_http_fastdfs_process_init pid=111
+ngx_http_fastdfs_process_init pid=112
+2020/06/18 06:55:09 [alert] 41#0: worker process 109 exited on signal 11
+ngx_http_fastdfs_process_init pid=113
+2020/06/18 06:55:16 [alert] 41#0: worker process 110 exited on signal 11
+2020/06/18 06:55:16 [alert] 41#0: worker process 111 exited on signal 11
+ngx_http_fastdfs_process_init pid=114
+ngx_http_fastdfs_process_init pid=115
+2020/06/18 06:55:18 [alert] 41#0: worker process 112 exited on signal 11
+ngx_http_fastdfs_process_init pid=116
+2020/06/18 06:55:25 [alert] 41#0: worker process 113 exited on signal 11
+2020/06/18 06:55:25 [alert] 41#0: worker process 115 exited on signal 11
+2020/06/18 06:55:25 [alert] 41#0: worker process 114 exited on signal 11
+ngx_http_fastdfs_process_init pid=123
+ngx_http_fastdfs_process_init pid=124
+ngx_http_fastdfs_process_init pid=125
+2020/06/18 06:55:27 [alert] 41#0: worker process 116 exited on signal 11
+ngx_http_fastdfs_process_init pid=126
+2020/06/18 06:55:27 [alert] 41#0: worker process 123 exited on signal 11
+ngx_http_fastdfs_process_init pid=127
+2020/06/18 06:55:34 [alert] 41#0: worker process 124 exited on signal 11
+2020/06/18 06:55:34 [alert] 41#0: worker process 125 exited on signal 11
+ngx_http_fastdfs_process_init pid=129
+ngx_http_fastdfs_process_init pid=128
+2020/06/18 06:55:34 [alert] 41#0: worker process 126 exited on signal 11
+ngx_http_fastdfs_process_init pid=130
+2020/06/18 06:55:34 [alert] 41#0: worker process 127 exited on signal 11
+ngx_http_fastdfs_process_init pid=131
+2020/06/18 06:55:43 [alert] 41#0: worker process 129 exited on signal 11
+2020/06/18 06:55:43 [alert] 41#0: worker process 130 exited on signal 11
+2020/06/18 06:55:43 [alert] 41#0: worker process 128 exited on signal 11
+ngx_http_fastdfs_process_init pid=133
+ngx_http_fastdfs_process_init pid=134
+ngx_http_fastdfs_process_init pid=132
+ngx_http_fastdfs_process_init pid=39
+ngx_http_fastdfs_process_init pid=36
+ngx_http_fastdfs_process_init pid=38
+ngx_http_fastdfs_process_init pid=37
+2020/06/18 06:56:31 [alert] 35#0: worker process 39 exited on signal 11
+ngx_http_fastdfs_process_init pid=47
+2020/06/18 06:56:31 [alert] 35#0: worker process 36 exited on signal 11
+2020/06/18 06:56:31 [alert] 35#0: worker process 38 exited on signal 11
+2020/06/18 06:56:31 [alert] 35#0: worker process 37 exited on signal 11
+ngx_http_fastdfs_process_init pid=48
+ngx_http_fastdfs_process_init pid=49
+ngx_http_fastdfs_process_init pid=50
+2020/06/18 06:56:38 [alert] 35#0: worker process 47 exited on signal 11
+ngx_http_fastdfs_process_init pid=51
+2020/06/18 06:56:38 [alert] 35#0: worker process 48 exited on signal 11
+2020/06/18 06:56:40 [alert] 35#0: worker process 49 exited on signal 11
+2020/06/18 06:56:40 [alert] 35#0: worker process 50 exited on signal 11
+ngx_http_fastdfs_process_init pid=52
+ngx_http_fastdfs_process_init pid=53
+ngx_http_fastdfs_process_init pid=54
+2020/06/18 06:56:47 [alert] 35#0: worker process 51 exited on signal 11
+ngx_http_fastdfs_process_init pid=55
+2020/06/18 06:56:49 [alert] 35#0: worker process 53 exited on signal 11
+2020/06/18 06:56:49 [alert] 35#0: worker process 52 exited on signal 11
+2020/06/18 06:56:49 [alert] 35#0: worker process 54 exited on signal 11
+ngx_http_fastdfs_process_init pid=56
+ngx_http_fastdfs_process_init pid=57
+ngx_http_fastdfs_process_init pid=58
+2020/06/18 06:56:49 [alert] 35#0: worker process 55 exited on signal 11
+ngx_http_fastdfs_process_init pid=59
+2020/06/18 06:56:56 [alert] 35#0: worker process 56 exited on signal 11
+2020/06/18 06:56:56 [alert] 35#0: worker process 57 exited on signal 11
+2020/06/18 06:56:56 [alert] 35#0: worker process 58 exited on signal 11
+ngx_http_fastdfs_process_init pid=60
+ngx_http_fastdfs_process_init pid=61
+ngx_http_fastdfs_process_init pid=62
+2020/06/18 06:57:05 [alert] 35#0: worker process 59 exited on signal 11
+ngx_http_fastdfs_process_init pid=63
+2020/06/18 06:57:05 [alert] 35#0: worker process 61 exited on signal 11
+2020/06/18 06:57:05 [alert] 35#0: worker process 60 exited on signal 11
+2020/06/18 06:57:05 [alert] 35#0: worker process 62 exited on signal 11
+ngx_http_fastdfs_process_init pid=64
+ngx_http_fastdfs_process_init pid=65
+ngx_http_fastdfs_process_init pid=66
+2020/06/18 06:57:05 [alert] 35#0: worker process 63 exited on signal 11
+ngx_http_fastdfs_process_init pid=67
+2020/06/18 06:57:14 [alert] 35#0: worker process 65 exited on signal 11
+2020/06/18 06:57:14 [alert] 35#0: worker process 64 exited on signal 11
+2020/06/18 06:57:14 [alert] 35#0: worker process 66 exited on signal 11
+ngx_http_fastdfs_process_init pid=68
+ngx_http_fastdfs_process_init pid=69
+ngx_http_fastdfs_process_init pid=70
+2020/06/18 06:57:14 [alert] 35#0: worker process 67 exited on signal 11
+ngx_http_fastdfs_process_init pid=71
+2020/06/18 06:57:22 [alert] 35#0: worker process 68 exited on signal 11
+2020/06/18 06:57:22 [alert] 35#0: worker process 69 exited on signal 11
+2020/06/18 06:57:22 [alert] 35#0: worker process 70 exited on signal 11
+ngx_http_fastdfs_process_init pid=72
+ngx_http_fastdfs_process_init pid=73
+ngx_http_fastdfs_process_init pid=74
+2020/06/18 06:57:31 [alert] 35#0: worker process 71 exited on signal 11
+ngx_http_fastdfs_process_init pid=75
+2020/06/18 06:57:31 [alert] 35#0: worker process 72 exited on signal 11
+2020/06/18 06:57:31 [alert] 35#0: worker process 73 exited on signal 11
+2020/06/18 06:57:31 [alert] 35#0: worker process 74 exited on signal 11
+ngx_http_fastdfs_process_init pid=76
+ngx_http_fastdfs_process_init pid=77
+ngx_http_fastdfs_process_init pid=78
+2020/06/18 06:57:38 [alert] 35#0: worker process 75 exited on signal 11
+ngx_http_fastdfs_process_init pid=85
+2020/06/18 06:57:40 [alert] 35#0: worker process 76 exited on signal 11
+2020/06/18 06:57:40 [alert] 35#0: worker process 77 exited on signal 11
+2020/06/18 06:57:40 [alert] 35#0: worker process 78 exited on signal 11
+ngx_http_fastdfs_process_init pid=86
+ngx_http_fastdfs_process_init pid=87
+ngx_http_fastdfs_process_init pid=88
+2020/06/18 06:57:47 [alert] 35#0: worker process 85 exited on signal 11
+ngx_http_fastdfs_process_init pid=89
+2020/06/18 06:57:47 [alert] 35#0: worker process 87 exited on signal 11
+2020/06/18 06:57:47 [alert] 35#0: worker process 86 exited on signal 11
+ngx_http_fastdfs_process_init pid=90
+ngx_http_fastdfs_process_init pid=91
+2020/06/18 06:57:49 [alert] 35#0: worker process 88 exited on signal 11
+ngx_http_fastdfs_process_init pid=92
+2020/06/18 06:57:49 [alert] 35#0: worker process 89 exited on signal 11
+ngx_http_fastdfs_process_init pid=93
+2020/06/18 06:57:56 [alert] 35#0: worker process 91 exited on signal 11
+2020/06/18 06:57:56 [alert] 35#0: worker process 90 exited on signal 11
+ngx_http_fastdfs_process_init pid=94
+ngx_http_fastdfs_process_init pid=95
+2020/06/18 06:57:58 [alert] 35#0: worker process 92 exited on signal 11
+ngx_http_fastdfs_process_init pid=96
+2020/06/18 06:57:58 [alert] 35#0: worker process 93 exited on signal 11
+ngx_http_fastdfs_process_init pid=97
+2020/06/18 06:58:05 [alert] 35#0: worker process 94 exited on signal 11
+2020/06/18 06:58:05 [alert] 35#0: worker process 95 exited on signal 11
+ngx_http_fastdfs_process_init pid=98
+ngx_http_fastdfs_process_init pid=99
+2020/06/18 06:58:05 [alert] 35#0: worker process 96 exited on signal 11
+ngx_http_fastdfs_process_init pid=100
+2020/06/18 06:58:14 [alert] 35#0: worker process 97 exited on signal 11
+ngx_http_fastdfs_process_init pid=101
+2020/06/18 06:58:14 [alert] 35#0: worker process 99 exited on signal 11
+2020/06/18 06:58:14 [alert] 35#0: worker process 98 exited on signal 11
+2020/06/18 06:58:14 [alert] 35#0: worker process 100 exited on signal 11
+ngx_http_fastdfs_process_init pid=102
+ngx_http_fastdfs_process_init pid=103
+ngx_http_fastdfs_process_init pid=104
+2020/06/18 06:58:14 [alert] 35#0: worker process 101 exited on signal 11
+ngx_http_fastdfs_process_init pid=105
+2020/06/18 06:58:23 [alert] 35#0: worker process 102 exited on signal 11
+2020/06/18 06:58:23 [alert] 35#0: worker process 103 exited on signal 11
+ngx_http_fastdfs_process_init pid=106
+2020/06/18 06:58:23 [alert] 35#0: worker process 104 exited on signal 11
+ngx_http_fastdfs_process_init pid=107
+ngx_http_fastdfs_process_init pid=108
+2020/06/18 06:58:30 [alert] 35#0: worker process 105 exited on signal 11
+ngx_http_fastdfs_process_init pid=109
+2020/06/18 06:58:30 [alert] 35#0: worker process 106 exited on signal 11
+ngx_http_fastdfs_process_init pid=110
+2020/06/18 06:58:32 [alert] 35#0: worker process 107 exited on signal 11
+ngx_http_fastdfs_process_init pid=111
+2020/06/18 06:58:32 [alert] 35#0: worker process 108 exited on signal 11
+ngx_http_fastdfs_process_init pid=112
+2020/06/18 06:58:39 [alert] 35#0: worker process 109 exited on signal 11
+ngx_http_fastdfs_process_init pid=113
+2020/06/18 06:58:39 [alert] 35#0: worker process 110 exited on signal 11
+ngx_http_fastdfs_process_init pid=114
+2020/06/18 06:58:41 [alert] 35#0: worker process 111 exited on signal 11
+ngx_http_fastdfs_process_init pid=115
+2020/06/18 06:58:41 [alert] 35#0: worker process 112 exited on signal 11
+ngx_http_fastdfs_process_init pid=116
+2020/06/18 06:58:48 [alert] 35#0: worker process 113 exited on signal 11
+ngx_http_fastdfs_process_init pid=123
+2020/06/18 06:58:48 [alert] 35#0: worker process 114 exited on signal 11
+ngx_http_fastdfs_process_init pid=124
+2020/06/18 06:58:48 [alert] 35#0: worker process 115 exited on signal 11
+ngx_http_fastdfs_process_init pid=125
+2020/06/18 06:58:50 [alert] 35#0: worker process 116 exited on signal 11
+ngx_http_fastdfs_process_init pid=126
+2020/06/18 06:58:57 [alert] 35#0: worker process 123 exited on signal 11
+ngx_http_fastdfs_process_init pid=132
+2020/06/18 06:58:57 [alert] 35#0: worker process 124 exited on signal 11
+2020/06/18 06:58:57 [alert] 35#0: worker process 125 exited on signal 11
+ngx_http_fastdfs_process_init pid=133
+ngx_http_fastdfs_process_init pid=134
+2020/06/18 06:58:59 [alert] 35#0: worker process 126 exited on signal 11
+ngx_http_fastdfs_process_init pid=135
+2020/06/18 06:59:06 [alert] 35#0: worker process 132 exited on signal 11
+ngx_http_fastdfs_process_init pid=137
+2020/06/18 06:59:06 [alert] 35#0: worker process 133 exited on signal 11
+2020/06/18 06:59:06 [alert] 35#0: worker process 134 exited on signal 11
+ngx_http_fastdfs_process_init pid=138
+ngx_http_fastdfs_process_init pid=139
+2020/06/18 06:59:06 [alert] 35#0: worker process 135 exited on signal 11
+ngx_http_fastdfs_process_init pid=140
+2020/06/18 06:59:15 [alert] 35#0: worker process 137 exited on signal 11
+ngx_http_fastdfs_process_init pid=142
+2020/06/18 06:59:15 [alert] 35#0: worker process 138 exited on signal 11
+2020/06/18 06:59:15 [alert] 35#0: worker process 139 exited on signal 11
+ngx_http_fastdfs_process_init pid=143
+2020/06/18 06:59:15 [alert] 35#0: worker process 140 exited on signal 11
+ngx_http_fastdfs_process_init pid=144
+ngx_http_fastdfs_process_init pid=145
+2020/06/18 06:59:22 [alert] 35#0: worker process 142 exited on signal 11
+ngx_http_fastdfs_process_init pid=146
+2020/06/18 06:59:24 [alert] 35#0: worker process 143 exited on signal 11
+2020/06/18 06:59:24 [alert] 35#0: worker process 144 exited on signal 11
+ngx_http_fastdfs_process_init pid=147
+2020/06/18 06:59:24 [alert] 35#0: worker process 145 exited on signal 11
+ngx_http_fastdfs_process_init pid=148
+ngx_http_fastdfs_process_init pid=149
+2020/06/18 06:59:31 [alert] 35#0: worker process 146 exited on signal 11
+ngx_http_fastdfs_process_init pid=152
+2020/06/18 06:59:31 [alert] 35#0: worker process 147 exited on signal 11
+ngx_http_fastdfs_process_init pid=153
+2020/06/18 06:59:33 [alert] 35#0: worker process 148 exited on signal 11
+2020/06/18 06:59:33 [alert] 35#0: worker process 149 exited on signal 11
+ngx_http_fastdfs_process_init pid=154
+ngx_http_fastdfs_process_init pid=155
+2020/06/18 06:59:40 [alert] 35#0: worker process 152 exited on signal 11
+2020/06/18 06:59:40 [alert] 35#0: worker process 153 exited on signal 11
+ngx_http_fastdfs_process_init pid=156
+ngx_http_fastdfs_process_init pid=157
+2020/06/18 06:59:42 [alert] 35#0: worker process 154 exited on signal 11
+2020/06/18 06:59:42 [alert] 35#0: worker process 155 exited on signal 11
+ngx_http_fastdfs_process_init pid=158
+ngx_http_fastdfs_process_init pid=159
+2020/06/18 06:59:49 [alert] 35#0: worker process 156 exited on signal 11
+2020/06/18 06:59:49 [alert] 35#0: worker process 157 exited on signal 11
+ngx_http_fastdfs_process_init pid=162
+ngx_http_fastdfs_process_init pid=163
+2020/06/18 06:59:49 [alert] 35#0: worker process 158 exited on signal 11
+ngx_http_fastdfs_process_init pid=164
+2020/06/18 06:59:51 [alert] 35#0: worker process 159 exited on signal 11
+ngx_http_fastdfs_process_init pid=165
+2020/06/18 06:59:58 [alert] 35#0: worker process 162 exited on signal 11
+2020/06/18 06:59:58 [alert] 35#0: worker process 163 exited on signal 11
+ngx_http_fastdfs_process_init pid=166
+2020/06/18 06:59:58 [alert] 35#0: worker process 164 exited on signal 11
+ngx_http_fastdfs_process_init pid=167
+ngx_http_fastdfs_process_init pid=168
+2020/06/18 07:00:00 [alert] 35#0: worker process 165 exited on signal 11
+ngx_http_fastdfs_process_init pid=169
+2020/06/18 07:00:07 [alert] 35#0: worker process 166 exited on signal 11
+2020/06/18 07:00:07 [alert] 35#0: worker process 167 exited on signal 11
+ngx_http_fastdfs_process_init pid=176
+2020/06/18 07:00:07 [alert] 35#0: worker process 168 exited on signal 11
+ngx_http_fastdfs_process_init pid=177
+2020/06/18 07:00:07 [alert] 35#0: worker process 169 exited on signal 11
+ngx_http_fastdfs_process_init pid=178
+ngx_http_fastdfs_process_init pid=179
+2020/06/18 07:00:16 [alert] 35#0: worker process 176 exited on signal 11
+ngx_http_fastdfs_process_init pid=180
+2020/06/18 07:00:16 [alert] 35#0: worker process 177 exited on signal 11
+2020/06/18 07:00:16 [alert] 35#0: worker process 178 exited on signal 11
+2020/06/18 07:00:16 [alert] 35#0: worker process 179 exited on signal 11
+ngx_http_fastdfs_process_init pid=181
+ngx_http_fastdfs_process_init pid=182
+ngx_http_fastdfs_process_init pid=183
+2020/06/18 07:00:23 [alert] 35#0: worker process 180 exited on signal 11
+ngx_http_fastdfs_process_init pid=184
+2020/06/18 07:00:25 [alert] 35#0: worker process 181 exited on signal 11
+2020/06/18 07:00:25 [alert] 35#0: worker process 182 exited on signal 11
+2020/06/18 07:00:25 [alert] 35#0: worker process 183 exited on signal 11
+ngx_http_fastdfs_process_init pid=185
+ngx_http_fastdfs_process_init pid=186
+ngx_http_fastdfs_process_init pid=187
+2020/06/18 07:00:32 [alert] 35#0: worker process 184 exited on signal 11
+ngx_http_fastdfs_process_init pid=188
+2020/06/18 07:00:32 [alert] 35#0: worker process 185 exited on signal 11
+ngx_http_fastdfs_process_init pid=189
+2020/06/18 07:00:34 [alert] 35#0: worker process 186 exited on signal 11
+2020/06/18 07:00:34 [alert] 35#0: worker process 187 exited on signal 11
+ngx_http_fastdfs_process_init pid=190
+ngx_http_fastdfs_process_init pid=191
+2020/06/18 07:00:41 [alert] 35#0: worker process 188 exited on signal 11
+2020/06/18 07:00:41 [alert] 35#0: worker process 189 exited on signal 11
+ngx_http_fastdfs_process_init pid=192
+ngx_http_fastdfs_process_init pid=193
+2020/06/18 07:00:43 [alert] 35#0: worker process 190 exited on signal 11
+2020/06/18 07:00:43 [alert] 35#0: worker process 191 exited on signal 11
+ngx_http_fastdfs_process_init pid=194
+ngx_http_fastdfs_process_init pid=195
+2020/06/18 07:00:50 [alert] 35#0: worker process 192 exited on signal 11
+2020/06/18 07:00:50 [alert] 35#0: worker process 193 exited on signal 11
+ngx_http_fastdfs_process_init pid=196
+ngx_http_fastdfs_process_init pid=197
+2020/06/18 07:00:50 [alert] 35#0: worker process 195 exited on signal 11
+2020/06/18 07:00:50 [alert] 35#0: worker process 194 exited on signal 11
+ngx_http_fastdfs_process_init pid=198
+ngx_http_fastdfs_process_init pid=199
+2020/06/18 07:00:59 [alert] 35#0: worker process 196 exited on signal 11
+2020/06/18 07:00:59 [alert] 35#0: worker process 197 exited on signal 11
+ngx_http_fastdfs_process_init pid=200
+2020/06/18 07:00:59 [alert] 35#0: worker process 198 exited on signal 11
+2020/06/18 07:00:59 [alert] 35#0: worker process 199 exited on signal 11
+ngx_http_fastdfs_process_init pid=201
+ngx_http_fastdfs_process_init pid=202
+ngx_http_fastdfs_process_init pid=203
+2020/06/18 07:01:06 [alert] 35#0: worker process 200 exited on signal 11
+ngx_http_fastdfs_process_init pid=204
+2020/06/18 07:01:08 [alert] 35#0: worker process 201 exited on signal 11
+2020/06/18 07:01:08 [alert] 35#0: worker process 202 exited on signal 11
+2020/06/18 07:01:08 [alert] 35#0: worker process 203 exited on signal 11
+ngx_http_fastdfs_process_init pid=205
+ngx_http_fastdfs_process_init pid=206
+ngx_http_fastdfs_process_init pid=207
+2020/06/18 07:01:15 [alert] 35#0: worker process 204 exited on signal 11
+ngx_http_fastdfs_process_init pid=208
+2020/06/18 07:01:15 [alert] 35#0: worker process 205 exited on signal 11
+ngx_http_fastdfs_process_init pid=209
+2020/06/18 07:01:17 [alert] 35#0: worker process 206 exited on signal 11
+2020/06/18 07:01:17 [alert] 35#0: worker process 207 exited on signal 11
+ngx_http_fastdfs_process_init pid=216
+ngx_http_fastdfs_process_init pid=217
+2020/06/18 07:01:24 [alert] 35#0: worker process 208 exited on signal 11
+2020/06/18 07:01:24 [alert] 35#0: worker process 209 exited on signal 11
+ngx_http_fastdfs_process_init pid=218
+ngx_http_fastdfs_process_init pid=219
+2020/06/18 07:01:27 [alert] 35#0: worker process 216 exited on signal 11
+2020/06/18 07:01:27 [alert] 35#0: worker process 217 exited on signal 11
+ngx_http_fastdfs_process_init pid=220
+ngx_http_fastdfs_process_init pid=221
+2020/06/18 07:01:34 [alert] 35#0: worker process 218 exited on signal 11
+2020/06/18 07:01:34 [alert] 35#0: worker process 219 exited on signal 11
+ngx_http_fastdfs_process_init pid=222
+ngx_http_fastdfs_process_init pid=223
+2020/06/18 07:01:34 [alert] 35#0: worker process 220 exited on signal 11
+2020/06/18 07:01:34 [alert] 35#0: worker process 221 exited on signal 11
+ngx_http_fastdfs_process_init pid=224
+ngx_http_fastdfs_process_init pid=225
+2020/06/18 07:01:43 [alert] 35#0: worker process 222 exited on signal 11
+2020/06/18 07:01:43 [alert] 35#0: worker process 223 exited on signal 11
+ngx_http_fastdfs_process_init pid=226
+2020/06/18 07:01:43 [alert] 35#0: worker process 225 exited on signal 11
+2020/06/18 07:01:43 [alert] 35#0: worker process 224 exited on signal 11
+ngx_http_fastdfs_process_init pid=227
+ngx_http_fastdfs_process_init pid=229
+ngx_http_fastdfs_process_init pid=228
+2020/06/18 07:01:50 [alert] 35#0: worker process 226 exited on signal 11
+2020/06/18 07:01:50 [alert] 35#0: worker process 227 exited on signal 11
+ngx_http_fastdfs_process_init pid=230
+ngx_http_fastdfs_process_init pid=231
+2020/06/18 07:01:52 [alert] 35#0: worker process 228 exited on signal 11
+2020/06/18 07:01:52 [alert] 35#0: worker process 229 exited on signal 11
+ngx_http_fastdfs_process_init pid=232
+ngx_http_fastdfs_process_init pid=233
+2020/06/18 07:01:59 [alert] 35#0: worker process 230 exited on signal 11
+2020/06/18 07:01:59 [alert] 35#0: worker process 231 exited on signal 11
+ngx_http_fastdfs_process_init pid=234
+ngx_http_fastdfs_process_init pid=235
+2020/06/18 07:01:59 [alert] 35#0: worker process 232 exited on signal 11
+2020/06/18 07:01:59 [alert] 35#0: worker process 233 exited on signal 11
+ngx_http_fastdfs_process_init pid=237
+ngx_http_fastdfs_process_init pid=236
+2020/06/18 07:02:08 [alert] 35#0: worker process 234 exited on signal 11
+2020/06/18 07:02:08 [alert] 35#0: worker process 235 exited on signal 11
+2020/06/18 07:02:08 [alert] 35#0: worker process 236 exited on signal 11
+2020/06/18 07:02:08 [alert] 35#0: worker process 237 exited on signal 11
+ngx_http_fastdfs_process_init pid=238
+ngx_http_fastdfs_process_init pid=239
+ngx_http_fastdfs_process_init pid=240
+ngx_http_fastdfs_process_init pid=241
+2020/06/18 07:02:15 [alert] 35#0: worker process 238 exited on signal 11
+ngx_http_fastdfs_process_init pid=242
+2020/06/18 07:02:17 [alert] 35#0: worker process 239 exited on signal 11
+2020/06/18 07:02:17 [alert] 35#0: worker process 240 exited on signal 11
+2020/06/18 07:02:17 [alert] 35#0: worker process 241 exited on signal 11
+ngx_http_fastdfs_process_init pid=243
+ngx_http_fastdfs_process_init pid=244
+ngx_http_fastdfs_process_init pid=245
+2020/06/18 07:02:24 [alert] 35#0: worker process 242 exited on signal 11
+ngx_http_fastdfs_process_init pid=246
+2020/06/18 07:02:24 [alert] 35#0: worker process 245 exited on signal 11
+2020/06/18 07:02:24 [alert] 35#0: worker process 243 exited on signal 11
+ngx_http_fastdfs_process_init pid=248
+ngx_http_fastdfs_process_init pid=247
+2020/06/18 07:02:24 [alert] 35#0: worker process 244 exited on signal 11
+ngx_http_fastdfs_process_init pid=249
+2020/06/18 07:02:33 [alert] 35#0: worker process 246 exited on signal 11
+2020/06/18 07:02:33 [alert] 35#0: worker process 247 exited on signal 11
+2020/06/18 07:02:33 [alert] 35#0: worker process 248 exited on signal 11
+ngx_http_fastdfs_process_init pid=256
+ngx_http_fastdfs_process_init pid=257
+ngx_http_fastdfs_process_init pid=258
+2020/06/18 07:02:35 [alert] 35#0: worker process 249 exited on signal 11
+ngx_http_fastdfs_process_init pid=259
+2020/06/18 07:02:42 [alert] 35#0: worker process 256 exited on signal 11
+2020/06/18 07:02:42 [alert] 35#0: worker process 258 exited on signal 11
+2020/06/18 07:02:42 [alert] 35#0: worker process 257 exited on signal 11
+ngx_http_fastdfs_process_init pid=260
+ngx_http_fastdfs_process_init pid=261
+ngx_http_fastdfs_process_init pid=262
+2020/06/18 07:02:42 [alert] 35#0: worker process 259 exited on signal 11
+ngx_http_fastdfs_process_init pid=263
+2020/06/18 07:02:42 [alert] 35#0: worker process 260 exited on signal 11
+2020/06/18 07:02:51 [alert] 35#0: worker process 261 exited on signal 11
+2020/06/18 07:02:51 [alert] 35#0: worker process 262 exited on signal 11
+ngx_http_fastdfs_process_init pid=264
+2020/06/18 07:02:51 [alert] 35#0: worker process 263 exited on signal 11
+ngx_http_fastdfs_process_init pid=265
+ngx_http_fastdfs_process_init pid=266
+ngx_http_fastdfs_process_init pid=267
+2020/06/18 07:02:58 [alert] 35#0: worker process 264 exited on signal 11
+ngx_http_fastdfs_process_init pid=268
+2020/06/18 07:03:00 [alert] 35#0: worker process 265 exited on signal 11
+2020/06/18 07:03:00 [alert] 35#0: worker process 267 exited on signal 11
+2020/06/18 07:03:00 [alert] 35#0: worker process 266 exited on signal 11
+ngx_http_fastdfs_process_init pid=269
+ngx_http_fastdfs_process_init pid=271
+ngx_http_fastdfs_process_init pid=270
+2020/06/18 07:03:07 [alert] 35#0: worker process 268 exited on signal 11
+ngx_http_fastdfs_process_init pid=272
+2020/06/18 07:03:07 [alert] 35#0: worker process 270 exited on signal 11
+2020/06/18 07:03:07 [alert] 35#0: worker process 269 exited on signal 11
+2020/06/18 07:03:07 [alert] 35#0: worker process 271 exited on signal 11
+ngx_http_fastdfs_process_init pid=274
+ngx_http_fastdfs_process_init pid=273
+ngx_http_fastdfs_process_init pid=275
+2020/06/18 07:03:07 [alert] 35#0: worker process 272 exited on signal 11
+2020/06/18 07:03:16 [alert] 35#0: worker process 275 exited on signal 11
+2020/06/18 07:03:16 [alert] 35#0: worker process 273 exited on signal 11
+2020/06/18 07:03:16 [alert] 35#0: worker process 274 exited on signal 11
+ngx_http_fastdfs_process_init pid=276
+ngx_http_fastdfs_process_init pid=278
+ngx_http_fastdfs_process_init pid=277
+ngx_http_fastdfs_process_init pid=279
+ngx_http_fastdfs_process_init pid=42
+ngx_http_fastdfs_process_init pid=44
+ngx_http_fastdfs_process_init pid=46
+ngx_http_fastdfs_process_init pid=43
+2020/06/18 07:03:46 [alert] 41#0: worker process 44 exited on signal 11
+2020/06/18 07:03:46 [alert] 41#0: worker process 46 exited on signal 11
+2020/06/18 07:03:46 [alert] 41#0: worker process 42 exited on signal 11
+2020/06/18 07:03:46 [alert] 41#0: worker process 43 exited on signal 11
+ngx_http_fastdfs_process_init pid=47
+ngx_http_fastdfs_process_init pid=48
+ngx_http_fastdfs_process_init pid=49
+ngx_http_fastdfs_process_init pid=50
+2020/06/18 07:03:46 [alert] 41#0: worker process 47 exited on signal 11
+2020/06/18 07:03:55 [alert] 41#0: worker process 48 exited on signal 11
+2020/06/18 07:03:55 [alert] 41#0: worker process 49 exited on signal 11
+2020/06/18 07:03:55 [alert] 41#0: worker process 50 exited on signal 11
+ngx_http_fastdfs_process_init pid=51
+ngx_http_fastdfs_process_init pid=52
+ngx_http_fastdfs_process_init pid=53
+ngx_http_fastdfs_process_init pid=54
+2020/06/18 07:04:04 [alert] 41#0: worker process 51 exited on signal 11
+2020/06/18 07:04:04 [alert] 41#0: worker process 54 exited on signal 11
+2020/06/18 07:04:04 [alert] 41#0: worker process 53 exited on signal 11
+ngx_http_fastdfs_process_init pid=55
+2020/06/18 07:04:04 [alert] 41#0: worker process 52 exited on signal 11
+ngx_http_fastdfs_process_init pid=56
+ngx_http_fastdfs_process_init pid=58
+ngx_http_fastdfs_process_init pid=57
+2020/06/18 07:04:04 [alert] 41#0: worker process 55 exited on signal 11
+2020/06/18 07:04:13 [alert] 41#0: worker process 56 exited on signal 11
+ngx_http_fastdfs_process_init pid=59
+2020/06/18 07:04:13 [alert] 41#0: worker process 58 exited on signal 11
+2020/06/18 07:04:13 [alert] 41#0: worker process 57 exited on signal 11
+ngx_http_fastdfs_process_init pid=60
+ngx_http_fastdfs_process_init pid=61
+ngx_http_fastdfs_process_init pid=62
+2020/06/18 07:04:22 [alert] 41#0: worker process 59 exited on signal 11
+ngx_http_fastdfs_process_init pid=70
+2020/06/18 07:04:22 [alert] 41#0: worker process 60 exited on signal 11
+2020/06/18 07:04:22 [alert] 41#0: worker process 61 exited on signal 11
+2020/06/18 07:04:22 [alert] 41#0: worker process 62 exited on signal 11
+ngx_http_fastdfs_process_init pid=71
+ngx_http_fastdfs_process_init pid=72
+ngx_http_fastdfs_process_init pid=73
+2020/06/18 07:04:29 [alert] 41#0: worker process 70 exited on signal 11
+ngx_http_fastdfs_process_init pid=75
+2020/06/18 07:04:31 [alert] 41#0: worker process 71 exited on signal 11
+ngx_http_fastdfs_process_init pid=76
+2020/06/18 07:04:31 [alert] 41#0: worker process 73 exited on signal 11
+2020/06/18 07:04:31 [alert] 41#0: worker process 72 exited on signal 11
+ngx_http_fastdfs_process_init pid=77
+ngx_http_fastdfs_process_init pid=78
+2020/06/18 07:04:38 [alert] 41#0: worker process 75 exited on signal 11
+ngx_http_fastdfs_process_init pid=79
+2020/06/18 07:04:38 [alert] 41#0: worker process 76 exited on signal 11
+ngx_http_fastdfs_process_init pid=80
+2020/06/18 07:04:40 [alert] 41#0: worker process 77 exited on signal 11
+2020/06/18 07:04:40 [alert] 41#0: worker process 78 exited on signal 11
+ngx_http_fastdfs_process_init pid=81
+ngx_http_fastdfs_process_init pid=82
+2020/06/18 07:04:47 [alert] 41#0: worker process 79 exited on signal 11
+ngx_http_fastdfs_process_init pid=89
+2020/06/18 07:04:47 [alert] 41#0: worker process 80 exited on signal 11
+ngx_http_fastdfs_process_init pid=90
+2020/06/18 07:04:49 [alert] 41#0: worker process 81 exited on signal 11
+2020/06/18 07:04:49 [alert] 41#0: worker process 82 exited on signal 11
+ngx_http_fastdfs_process_init pid=92
+ngx_http_fastdfs_process_init pid=93
+2020/06/18 07:04:56 [alert] 41#0: worker process 89 exited on signal 11
+ngx_http_fastdfs_process_init pid=95
+2020/06/18 07:04:56 [alert] 41#0: worker process 90 exited on signal 11
+ngx_http_fastdfs_process_init pid=96
+2020/06/18 07:04:58 [alert] 41#0: worker process 92 exited on signal 11
+2020/06/18 07:04:58 [alert] 41#0: worker process 93 exited on signal 11
+ngx_http_fastdfs_process_init pid=97
+ngx_http_fastdfs_process_init pid=98
+2020/06/18 07:05:05 [alert] 41#0: worker process 95 exited on signal 11
+ngx_http_fastdfs_process_init pid=100
+2020/06/18 07:05:05 [alert] 41#0: worker process 96 exited on signal 11
+ngx_http_fastdfs_process_init pid=101
+2020/06/18 07:05:05 [alert] 41#0: worker process 97 exited on signal 11
+ngx_http_fastdfs_process_init pid=102
+2020/06/18 07:05:07 [notice] 103#0: signal process started
+ngx_http_fastdfs_process_init pid=104
+ngx_http_fastdfs_process_init pid=105
+ngx_http_fastdfs_process_init pid=107
+ngx_http_fastdfs_process_init pid=106
+2020/06/18 07:05:07 [alert] 41#0: worker process 98 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 100 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 101 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 104 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 106 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 102 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 105 exited on signal 11
+2020/06/18 07:05:14 [alert] 41#0: worker process 107 exited on signal 11
+ngx_http_fastdfs_process_init pid=108
+ngx_http_fastdfs_process_init pid=109
+ngx_http_fastdfs_process_init pid=110
+ngx_http_fastdfs_process_init pid=111
+2020/06/18 07:05:21 [alert] 41#0: worker process 109 exited on signal 11
+2020/06/18 07:05:21 [alert] 41#0: worker process 108 exited on signal 11
+2020/06/18 07:05:21 [alert] 41#0: worker process 110 exited on signal 11
+ngx_http_fastdfs_process_init pid=115
+ngx_http_fastdfs_process_init pid=114
+ngx_http_fastdfs_process_init pid=116
+2020/06/18 07:05:21 [alert] 41#0: worker process 111 exited on signal 11
+ngx_http_fastdfs_process_init pid=117
+2020/06/18 07:05:30 [alert] 41#0: worker process 116 exited on signal 11
+2020/06/18 07:05:30 [alert] 41#0: worker process 115 exited on signal 11
+2020/06/18 07:05:30 [alert] 41#0: worker process 114 exited on signal 11
+ngx_http_fastdfs_process_init pid=119
+2020/06/18 07:05:30 [alert] 41#0: worker process 117 exited on signal 11
+ngx_http_fastdfs_process_init pid=120
+ngx_http_fastdfs_process_init pid=118
+ngx_http_fastdfs_process_init pid=121
+2020/06/18 07:05:39 [alert] 41#0: worker process 120 exited on signal 11
+2020/06/18 07:05:39 [alert] 41#0: worker process 119 exited on signal 11
+2020/06/18 07:05:39 [alert] 41#0: worker process 121 exited on signal 11
+2020/06/18 07:05:39 [alert] 41#0: worker process 118 exited on signal 11
+ngx_http_fastdfs_process_init pid=122
+ngx_http_fastdfs_process_init pid=123
+ngx_http_fastdfs_process_init pid=124
+ngx_http_fastdfs_process_init pid=125
+2020/06/18 07:05:47 [alert] 41#0: worker process 123 exited on signal 11
+2020/06/18 07:05:47 [alert] 41#0: worker process 122 exited on signal 11
+2020/06/18 07:05:47 [alert] 41#0: worker process 124 exited on signal 11
+2020/06/18 07:05:47 [alert] 41#0: worker process 125 exited on signal 11
+ngx_http_fastdfs_process_init pid=128
+ngx_http_fastdfs_process_init pid=129
+ngx_http_fastdfs_process_init pid=130
+ngx_http_fastdfs_process_init pid=131
+2020/06/18 07:05:54 [alert] 41#0: worker process 129 exited on signal 11
+2020/06/18 07:05:54 [alert] 41#0: worker process 128 exited on signal 11
+2020/06/18 07:05:54 [alert] 41#0: worker process 130 exited on signal 11
+ngx_http_fastdfs_process_init pid=133
+ngx_http_fastdfs_process_init pid=134
+ngx_http_fastdfs_process_init pid=135
+2020/06/18 07:05:54 [alert] 41#0: worker process 131 exited on signal 11
+ngx_http_fastdfs_process_init pid=136
+2020/06/18 07:06:03 [alert] 41#0: worker process 135 exited on signal 11
+2020/06/18 07:06:03 [alert] 41#0: worker process 134 exited on signal 11
+2020/06/18 07:06:03 [alert] 41#0: worker process 133 exited on signal 11
+ngx_http_fastdfs_process_init pid=143
+2020/06/18 07:06:03 [alert] 41#0: worker process 136 exited on signal 11
+ngx_http_fastdfs_process_init pid=144
+ngx_http_fastdfs_process_init pid=145
+ngx_http_fastdfs_process_init pid=146
+2020/06/18 07:06:03 [alert] 41#0: worker process 143 exited on signal 11
+2020/06/18 07:06:12 [alert] 41#0: worker process 145 exited on signal 11
+2020/06/18 07:06:12 [alert] 41#0: worker process 144 exited on signal 11
+2020/06/18 07:06:12 [alert] 41#0: worker process 146 exited on signal 11
+ngx_http_fastdfs_process_init pid=147
+ngx_http_fastdfs_process_init pid=148
+ngx_http_fastdfs_process_init pid=150
+ngx_http_fastdfs_process_init pid=149
+2020/06/18 07:06:12 [alert] 41#0: worker process 147 exited on signal 11
+2020/06/18 07:06:19 [alert] 41#0: worker process 148 exited on signal 11
+ngx_http_fastdfs_process_init pid=151
+ngx_http_fastdfs_process_init pid=152
+2020/06/18 07:06:21 [alert] 41#0: worker process 150 exited on signal 11
+2020/06/18 07:06:21 [alert] 41#0: worker process 149 exited on signal 11
+ngx_http_fastdfs_process_init pid=153
+ngx_http_fastdfs_process_init pid=154
+2020/06/18 07:06:28 [alert] 41#0: worker process 151 exited on signal 11
+2020/06/18 07:06:28 [alert] 41#0: worker process 152 exited on signal 11
+ngx_http_fastdfs_process_init pid=156
+ngx_http_fastdfs_process_init pid=157
+2020/06/18 07:06:28 [alert] 41#0: worker process 153 exited on signal 11
+2020/06/18 07:06:28 [alert] 41#0: worker process 154 exited on signal 11
+ngx_http_fastdfs_process_init pid=158
+ngx_http_fastdfs_process_init pid=159
+2020/06/18 07:06:37 [alert] 41#0: worker process 156 exited on signal 11
+2020/06/18 07:06:37 [alert] 41#0: worker process 157 exited on signal 11
+2020/06/18 07:06:37 [alert] 41#0: worker process 158 exited on signal 11
+2020/06/18 07:06:37 [alert] 41#0: worker process 159 exited on signal 11
+ngx_http_fastdfs_process_init pid=161
+ngx_http_fastdfs_process_init pid=162
+ngx_http_fastdfs_process_init pid=163
+ngx_http_fastdfs_process_init pid=164
+2020/06/18 07:06:44 [alert] 41#0: worker process 161 exited on signal 11
+2020/06/18 07:06:44 [alert] 41#0: worker process 162 exited on signal 11
+2020/06/18 07:06:44 [alert] 41#0: worker process 163 exited on signal 11
+ngx_http_fastdfs_process_init pid=165
+ngx_http_fastdfs_process_init pid=166
+ngx_http_fastdfs_process_init pid=167
+2020/06/18 07:06:46 [alert] 41#0: worker process 164 exited on signal 11
+ngx_http_fastdfs_process_init pid=168
+2020/06/18 07:06:53 [alert] 41#0: worker process 165 exited on signal 11
+2020/06/18 07:06:53 [alert] 41#0: worker process 167 exited on signal 11
+2020/06/18 07:06:53 [alert] 41#0: worker process 166 exited on signal 11
+ngx_http_fastdfs_process_init pid=170
+ngx_http_fastdfs_process_init pid=169
+2020/06/18 07:06:53 [alert] 41#0: worker process 168 exited on signal 11
+ngx_http_fastdfs_process_init pid=171
+ngx_http_fastdfs_process_init pid=172
+2020/06/18 07:07:02 [alert] 41#0: worker process 170 exited on signal 11
+2020/06/18 07:07:02 [alert] 41#0: worker process 169 exited on signal 11
+2020/06/18 07:07:02 [alert] 41#0: worker process 172 exited on signal 11
+2020/06/18 07:07:02 [alert] 41#0: worker process 171 exited on signal 11
+ngx_http_fastdfs_process_init pid=173
+ngx_http_fastdfs_process_init pid=175
+ngx_http_fastdfs_process_init pid=174
+ngx_http_fastdfs_process_init pid=176
+2020/06/18 07:07:09 [alert] 41#0: worker process 173 exited on signal 11
+2020/06/18 07:07:09 [alert] 41#0: worker process 175 exited on signal 11
+2020/06/18 07:07:09 [alert] 41#0: worker process 174 exited on signal 11
+ngx_http_fastdfs_process_init pid=177
+ngx_http_fastdfs_process_init pid=178
+ngx_http_fastdfs_process_init pid=179
+2020/06/18 07:07:11 [alert] 41#0: worker process 176 exited on signal 11
+ngx_http_fastdfs_process_init pid=180
+2020/06/18 07:07:18 [alert] 41#0: worker process 177 exited on signal 11
+2020/06/18 07:07:18 [alert] 41#0: worker process 178 exited on signal 11
+2020/06/18 07:07:18 [alert] 41#0: worker process 179 exited on signal 11
+ngx_http_fastdfs_process_init pid=189
+ngx_http_fastdfs_process_init pid=191
+2020/06/18 07:07:18 [alert] 41#0: worker process 180 exited on signal 11
+ngx_http_fastdfs_process_init pid=190
+ngx_http_fastdfs_process_init pid=192
+2020/06/18 07:07:27 [alert] 41#0: worker process 189 exited on signal 11
+2020/06/18 07:07:27 [alert] 41#0: worker process 191 exited on signal 11
+2020/06/18 07:07:27 [alert] 41#0: worker process 190 exited on signal 11
+2020/06/18 07:07:27 [alert] 41#0: worker process 192 exited on signal 11
+ngx_http_fastdfs_process_init pid=193
+ngx_http_fastdfs_process_init pid=196
+ngx_http_fastdfs_process_init pid=194
+ngx_http_fastdfs_process_init pid=195
+2020/06/18 07:07:27 [alert] 41#0: worker process 193 exited on signal 11
+2020/06/18 07:07:34 [alert] 41#0: worker process 195 exited on signal 11
+2020/06/18 07:07:34 [alert] 41#0: worker process 196 exited on signal 11
+ngx_http_fastdfs_process_init pid=197
+ngx_http_fastdfs_process_init pid=198
+ngx_http_fastdfs_process_init pid=199
+2020/06/18 07:07:36 [alert] 41#0: worker process 194 exited on signal 11
+ngx_http_fastdfs_process_init pid=200
+2020/06/18 07:07:41 [notice] 201#0: signal process started
+ngx_http_fastdfs_process_init pid=202
+ngx_http_fastdfs_process_init pid=203
+ngx_http_fastdfs_process_init pid=204
+ngx_http_fastdfs_process_init pid=205
+2020/06/18 07:07:41 [alert] 41#0: worker process 197 exited on signal 11
+2020/06/18 07:07:43 [alert] 41#0: worker process 199 exited on signal 11
+2020/06/18 07:07:43 [alert] 41#0: worker process 198 exited on signal 11
+2020/06/18 07:07:43 [alert] 41#0: worker process 200 exited on signal 11
+2020/06/18 07:07:49 [alert] 41#0: worker process 202 exited on signal 11
+2020/06/18 07:07:49 [alert] 41#0: worker process 203 exited on signal 11
+2020/06/18 07:07:49 [alert] 41#0: worker process 204 exited on signal 11
+2020/06/18 07:07:49 [alert] 41#0: worker process 205 exited on signal 11
+ngx_http_fastdfs_process_init pid=206
+ngx_http_fastdfs_process_init pid=208
+ngx_http_fastdfs_process_init pid=207
+ngx_http_fastdfs_process_init pid=209
+2020/06/18 07:07:56 [alert] 41#0: worker process 206 exited on signal 11
+2020/06/18 07:07:56 [alert] 41#0: worker process 207 exited on signal 11
+2020/06/18 07:07:56 [alert] 41#0: worker process 208 exited on signal 11
+ngx_http_fastdfs_process_init pid=213
+ngx_http_fastdfs_process_init pid=212
+ngx_http_fastdfs_process_init pid=214
+2020/06/18 07:07:58 [alert] 41#0: worker process 209 exited on signal 11
+ngx_http_fastdfs_process_init pid=215
+2020/06/18 07:08:05 [alert] 41#0: worker process 212 exited on signal 11
+2020/06/18 07:08:05 [alert] 41#0: worker process 213 exited on signal 11
+2020/06/18 07:08:05 [alert] 41#0: worker process 214 exited on signal 11
+ngx_http_fastdfs_process_init pid=217
+ngx_http_fastdfs_process_init pid=218
+ngx_http_fastdfs_process_init pid=219
+2020/06/18 07:08:07 [alert] 41#0: worker process 215 exited on signal 11
+ngx_http_fastdfs_process_init pid=220
+2020/06/18 07:08:14 [alert] 41#0: worker process 217 exited on signal 11
+2020/06/18 07:08:14 [alert] 41#0: worker process 218 exited on signal 11
+2020/06/18 07:08:14 [alert] 41#0: worker process 219 exited on signal 11
+ngx_http_fastdfs_process_init pid=222
+ngx_http_fastdfs_process_init pid=224
+ngx_http_fastdfs_process_init pid=223
+2020/06/18 07:08:14 [alert] 41#0: worker process 220 exited on signal 11
+ngx_http_fastdfs_process_init pid=225
+2020/06/18 07:08:23 [alert] 41#0: worker process 224 exited on signal 11
+2020/06/18 07:08:23 [alert] 41#0: worker process 222 exited on signal 11
+2020/06/18 07:08:23 [alert] 41#0: worker process 223 exited on signal 11
+2020/06/18 07:08:23 [alert] 41#0: worker process 225 exited on signal 11
+ngx_http_fastdfs_process_init pid=226
+ngx_http_fastdfs_process_init pid=227
+ngx_http_fastdfs_process_init pid=228
+ngx_http_fastdfs_process_init pid=229
+2020/06/18 07:08:30 [alert] 41#0: worker process 226 exited on signal 11
+ngx_http_fastdfs_process_init pid=230
+2020/06/18 07:08:32 [alert] 41#0: worker process 227 exited on signal 11
+2020/06/18 07:08:32 [alert] 41#0: worker process 228 exited on signal 11
+2020/06/18 07:08:32 [alert] 41#0: worker process 229 exited on signal 11
+ngx_http_fastdfs_process_init pid=231
+ngx_http_fastdfs_process_init pid=232
+ngx_http_fastdfs_process_init pid=233
+2020/06/18 07:08:39 [alert] 41#0: worker process 230 exited on signal 11
+ngx_http_fastdfs_process_init pid=240
+2020/06/18 07:08:39 [alert] 41#0: worker process 231 exited on signal 11
+2020/06/18 07:08:39 [alert] 41#0: worker process 232 exited on signal 11
+ngx_http_fastdfs_process_init pid=241
+ngx_http_fastdfs_process_init pid=242
+2020/06/18 07:08:41 [alert] 41#0: worker process 233 exited on signal 11
+ngx_http_fastdfs_process_init pid=243
+2020/06/18 07:08:48 [alert] 41#0: worker process 240 exited on signal 11
+2020/06/18 07:08:48 [alert] 41#0: worker process 241 exited on signal 11
+2020/06/18 07:08:48 [alert] 41#0: worker process 242 exited on signal 11
+ngx_http_fastdfs_process_init pid=246
+ngx_http_fastdfs_process_init pid=247
+ngx_http_fastdfs_process_init pid=248
+2020/06/18 07:08:50 [alert] 41#0: worker process 243 exited on signal 11
+ngx_http_fastdfs_process_init pid=249
+2020/06/18 07:08:50 [alert] 41#0: worker process 246 exited on signal 11
+2020/06/18 07:08:57 [alert] 41#0: worker process 248 exited on signal 11
+2020/06/18 07:08:57 [alert] 41#0: worker process 247 exited on signal 11
+ngx_http_fastdfs_process_init pid=250
+2020/06/18 07:08:57 [alert] 41#0: worker process 249 exited on signal 11
+ngx_http_fastdfs_process_init pid=251
+ngx_http_fastdfs_process_init pid=252
+ngx_http_fastdfs_process_init pid=253
+2020/06/18 07:08:57 [alert] 41#0: worker process 250 exited on signal 11
+2020/06/18 07:09:06 [alert] 41#0: worker process 253 exited on signal 11
+2020/06/18 07:09:06 [alert] 41#0: worker process 251 exited on signal 11
+2020/06/18 07:09:06 [alert] 41#0: worker process 252 exited on signal 11
+ngx_http_fastdfs_process_init pid=254
+ngx_http_fastdfs_process_init pid=255
+ngx_http_fastdfs_process_init pid=256
+ngx_http_fastdfs_process_init pid=257
+2020/06/18 07:09:06 [alert] 41#0: worker process 254 exited on signal 11
+ngx_http_fastdfs_process_init pid=260
+2020/06/18 07:09:15 [alert] 41#0: worker process 256 exited on signal 11
+2020/06/18 07:09:15 [alert] 41#0: worker process 255 exited on signal 11
+2020/06/18 07:09:15 [alert] 41#0: worker process 257 exited on signal 11
+ngx_http_fastdfs_process_init pid=262
+ngx_http_fastdfs_process_init pid=261
+ngx_http_fastdfs_process_init pid=263
+2020/06/18 07:09:15 [alert] 41#0: worker process 260 exited on signal 11
+ngx_http_fastdfs_process_init pid=264
+2020/06/18 07:09:22 [alert] 41#0: worker process 262 exited on signal 11
+ngx_http_fastdfs_process_init pid=265
+2020/06/18 07:09:24 [alert] 41#0: worker process 261 exited on signal 11
+2020/06/18 07:09:24 [alert] 41#0: worker process 263 exited on signal 11
+ngx_http_fastdfs_process_init pid=266
+ngx_http_fastdfs_process_init pid=267
+2020/06/18 07:09:24 [alert] 41#0: worker process 264 exited on signal 11
+2020/06/18 07:09:31 [alert] 41#0: worker process 265 exited on signal 11
+ngx_http_fastdfs_process_init pid=268
+ngx_http_fastdfs_process_init pid=269
+2020/06/18 07:09:33 [alert] 41#0: worker process 266 exited on signal 11
+2020/06/18 07:09:33 [alert] 41#0: worker process 267 exited on signal 11
+ngx_http_fastdfs_process_init pid=270
+ngx_http_fastdfs_process_init pid=271
+2020/06/18 07:09:40 [alert] 41#0: worker process 268 exited on signal 11
+2020/06/18 07:09:40 [alert] 41#0: worker process 269 exited on signal 11
+ngx_http_fastdfs_process_init pid=272
+ngx_http_fastdfs_process_init pid=273
+2020/06/18 07:09:40 [alert] 41#0: worker process 270 exited on signal 11
+ngx_http_fastdfs_process_init pid=274
+2020/06/18 07:09:42 [alert] 41#0: worker process 271 exited on signal 11
+ngx_http_fastdfs_process_init pid=281
+2020/06/18 07:09:49 [alert] 41#0: worker process 272 exited on signal 11
+2020/06/18 07:09:49 [alert] 41#0: worker process 273 exited on signal 11
+ngx_http_fastdfs_process_init pid=282
+2020/06/18 07:09:49 [alert] 41#0: worker process 274 exited on signal 11
+ngx_http_fastdfs_process_init pid=283
+ngx_http_fastdfs_process_init pid=284
+2020/06/18 07:09:51 [alert] 41#0: worker process 281 exited on signal 11
+ngx_http_fastdfs_process_init pid=285
+2020/06/18 07:09:58 [alert] 41#0: worker process 282 exited on signal 11
+2020/06/18 07:09:58 [alert] 41#0: worker process 283 exited on signal 11
+ngx_http_fastdfs_process_init pid=286
+2020/06/18 07:09:58 [alert] 41#0: worker process 284 exited on signal 11
+ngx_http_fastdfs_process_init pid=287
+ngx_http_fastdfs_process_init pid=288
+2020/06/18 07:09:58 [alert] 41#0: worker process 285 exited on signal 11
+ngx_http_fastdfs_process_init pid=289
+2020/06/18 07:10:07 [alert] 41#0: worker process 286 exited on signal 11
+2020/06/18 07:10:07 [alert] 41#0: worker process 287 exited on signal 11
+ngx_http_fastdfs_process_init pid=290
+2020/06/18 07:10:07 [alert] 41#0: worker process 288 exited on signal 11
+ngx_http_fastdfs_process_init pid=291
+2020/06/18 07:10:07 [alert] 41#0: worker process 289 exited on signal 11
+ngx_http_fastdfs_process_init pid=292
+ngx_http_fastdfs_process_init pid=293
+2020/06/18 07:10:14 [alert] 41#0: worker process 290 exited on signal 11
+ngx_http_fastdfs_process_init pid=294
+2020/06/18 07:10:16 [alert] 41#0: worker process 291 exited on signal 11
+2020/06/18 07:10:16 [alert] 41#0: worker process 292 exited on signal 11
+ngx_http_fastdfs_process_init pid=295
+2020/06/18 07:10:16 [alert] 41#0: worker process 293 exited on signal 11
+ngx_http_fastdfs_process_init pid=296
+ngx_http_fastdfs_process_init pid=297
+2020/06/18 07:10:23 [alert] 41#0: worker process 294 exited on signal 11
+ngx_http_fastdfs_process_init pid=298
+2020/06/18 07:10:23 [alert] 41#0: worker process 295 exited on signal 11
+ngx_http_fastdfs_process_init pid=299
+2020/06/18 07:10:25 [alert] 41#0: worker process 296 exited on signal 11
+2020/06/18 07:10:25 [alert] 41#0: worker process 297 exited on signal 11
+ngx_http_fastdfs_process_init pid=300
+ngx_http_fastdfs_process_init pid=301
+2020/06/18 07:10:32 [alert] 41#0: worker process 298 exited on signal 11
+2020/06/18 07:10:32 [alert] 41#0: worker process 299 exited on signal 11
+ngx_http_fastdfs_process_init pid=302
+ngx_http_fastdfs_process_init pid=303
+2020/06/18 07:10:34 [alert] 41#0: worker process 300 exited on signal 11
+2020/06/18 07:10:34 [alert] 41#0: worker process 301 exited on signal 11
+ngx_http_fastdfs_process_init pid=304
+ngx_http_fastdfs_process_init pid=305
+2020/06/18 07:10:41 [alert] 41#0: worker process 302 exited on signal 11
+2020/06/18 07:10:41 [alert] 41#0: worker process 303 exited on signal 11
+ngx_http_fastdfs_process_init pid=306
+ngx_http_fastdfs_process_init pid=307
+2020/06/18 07:10:41 [alert] 41#0: worker process 304 exited on signal 11
+ngx_http_fastdfs_process_init pid=308
+2020/06/18 07:10:43 [alert] 41#0: worker process 305 exited on signal 11
+ngx_http_fastdfs_process_init pid=309
+2020/06/18 07:10:50 [alert] 41#0: worker process 306 exited on signal 11
+2020/06/18 07:10:50 [alert] 41#0: worker process 307 exited on signal 11
+ngx_http_fastdfs_process_init pid=310
+2020/06/18 07:10:50 [alert] 41#0: worker process 308 exited on signal 11
+ngx_http_fastdfs_process_init pid=311
+ngx_http_fastdfs_process_init pid=312
+2020/06/18 07:10:52 [alert] 41#0: worker process 309 exited on signal 11
+ngx_http_fastdfs_process_init pid=319
+2020/06/18 07:10:59 [alert] 41#0: worker process 310 exited on signal 11
+ngx_http_fastdfs_process_init pid=320
+2020/06/18 07:10:59 [alert] 41#0: worker process 311 exited on signal 11
+2020/06/18 07:10:59 [alert] 41#0: worker process 312 exited on signal 11
+ngx_http_fastdfs_process_init pid=321
+ngx_http_fastdfs_process_init pid=322
+2020/06/18 07:10:59 [alert] 41#0: worker process 319 exited on signal 11
+ngx_http_fastdfs_process_init pid=323
+2020/06/18 07:11:08 [alert] 41#0: worker process 320 exited on signal 11
+ngx_http_fastdfs_process_init pid=324
+2020/06/18 07:11:08 [alert] 41#0: worker process 321 exited on signal 11
+2020/06/18 07:11:08 [alert] 41#0: worker process 322 exited on signal 11
+2020/06/18 07:11:08 [alert] 41#0: worker process 323 exited on signal 11
+ngx_http_fastdfs_process_init pid=325
+ngx_http_fastdfs_process_init pid=326
+ngx_http_fastdfs_process_init pid=327
+ngx_http_fastdfs_process_init pid=6
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:17:51] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:17:51] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+[2020-06-18 07:17:51] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:17:51] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:17:51] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:17:51] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:17:51] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:17:51] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:17:51 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:17:51 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:17:51 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:17:51 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:20:21] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:20:21] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:20:21] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:20:21] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=6
+2020/06/18 07:20:21 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+[2020-06-18 07:20:21] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:20:21] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:20:21 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:20:21] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:20:21] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:20:21 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:20:21 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-18 07:24:23] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:24:23] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:24:23 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:24:23] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:24:23] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:24:23 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:24:23] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:24:23] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:24:23] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:24:23] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:24:23 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:24:23 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:34:34] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:34:34] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:34:34] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:34:34] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=6
+[2020-06-18 07:34:34] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:34:34] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:34:34 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:34:34 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:34:34 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:34:34] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:34:34] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:34:34 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-18 07:37:48] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:37:48] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:37:48] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:37:48] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:37:48 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:37:48] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:37:48] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:37:48] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:37:48] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:37:48 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:37:48 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:37:48 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=9
+[2020-06-18 07:38:35] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:38:35] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=7
+[2020-06-18 07:38:35] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:38:35] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:38:35 [alert] 1#0: worker process 9 exited with fatal code 2 and cannot be respawned
+ngx_http_fastdfs_process_init pid=6
+[2020-06-18 07:38:35] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:38:35] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+ngx_http_fastdfs_process_init pid=8
+[2020-06-18 07:38:35] ERROR - file: shared_func.c, line: 1067, file /etc/fdfs/mod_fastdfs.conf not exist
+[2020-06-18 07:38:35] ERROR - file: /opt/fastdfs-nginx-module/src/common.c, line: 163, load conf file "/etc/fdfs/mod_fastdfs.conf" fail, ret code: 2
+2020/06/18 07:38:35 [alert] 1#0: worker process 6 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:38:35 [alert] 1#0: worker process 7 exited with fatal code 2 and cannot be respawned
+2020/06/18 07:38:35 [alert] 1#0: worker process 8 exited with fatal code 2 and cannot be respawned

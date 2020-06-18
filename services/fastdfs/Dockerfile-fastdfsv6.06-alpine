@@ -23,7 +23,7 @@ WORKDIR /opt
 #RUN  git clone https://gitee.com/fastdfs100/fastdfs.git &&  cd fastdfs && git checkout ${FASTDFS_VERSION} && ./make.sh && ./make.sh install
 ADD fdfs_pkg/* /opt/
 RUN cd /opt/libfastcommon && ./make.sh clean && ./make.sh && ./make.sh install \
-    && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install \
+    && cd /opt/fastdfs && ./make.sh clean && ./make.sh && ./make.sh install 
 
 # 配置fastdfs
 WORKDIR /etc/fdfs/

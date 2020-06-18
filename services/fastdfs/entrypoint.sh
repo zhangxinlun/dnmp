@@ -35,13 +35,13 @@ sed -i "s/^tracker_server=.*$/tracker_server=${TRACKER_SERVER_IP_ADDRESS}:${TRAC
 sed -i "s/^subdir_count_per_path=.*$/subdir_count_per_path=$STORAGE_SUBDIR_COUNT_PER_PATH/g" /etc/fdfs/storage.conf
 
 # nginx使用 mod_fastdfs.conf 配置
-sed -i "s|^store_path0.*$|store_path0=$STORAGE_BASE_PATH$PATH0|g" /etc/fdfs/mod_fastdfs.conf
-sed -i "s|^url_have_group_name=.*$|url_have_group_name= true|g" /etc/fdfs/mod_fastdfs.conf
-sed -i "s/^tracker_server=.*$/tracker_server=$TRACKER_SERVER_IP_ADDRESS:$TRACKER_SERVER_PORT/g" /etc/fdfs/mod_fastdfs.conf
-sed -i "s/listen.*$/listen $NGINX_WEB_PORT;/g" /usr/local/nginx/conf/nginx.conf
+#sed -i "s|^store_path0.*$|store_path0=$STORAGE_BASE_PATH$PATH0|g" /etc/fdfs/mod_fastdfs.conf
+#sed -i "s|^url_have_group_name=.*$|url_have_group_name= true|g" /etc/fdfs/mod_fastdfs.conf
+#sed -i "s/^tracker_server=.*$/tracker_server=$TRACKER_SERVER_IP_ADDRESS:$TRACKER_SERVER_PORT/g" /etc/fdfs/mod_fastdfs.conf
+#sed -i "s/listen.*$/listen $NGINX_WEB_PORT;/g" /usr/local/nginx/conf/nginx.conf
 
 # http.conf 的默认图片配置
-sed -i "s|^http.anti_steal.token_check_fail.*|http.anti_steal.token_check_fail=/etc/fdfs/anti-steal.jpg|g" /etc/fdfs/http.conf
+#sed -i "s|^http.anti_steal.token_check_fail.*|http.anti_steal.token_check_fail=/etc/fdfs/anti-steal.jpg|g" /etc/fdfs/http.conf
 
 # 创建需要的文件目录
 # $TRACKER_BASE_PATH: tracker的根目录,其下放 logs和data
