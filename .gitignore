@@ -1,5 +1,6 @@
-#*.log
-#logs/
+.gitignore
+*.log
+logs/
 services/fastdfs/data/
 services/redis/data/
 services/mysql/data/
