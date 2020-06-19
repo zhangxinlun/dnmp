@@ -15,5 +15,5 @@
 - Maven
 
 ## Run
-- Run command `start.sh`
+- Run command `install.sh && cps.sh `
 - Access to http://domain.com/
