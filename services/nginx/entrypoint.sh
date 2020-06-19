@@ -65,7 +65,7 @@ else
   # 命令为空,默认启动所有的服务
   /etc/init.d/fdfs_trackerd start
   /etc/init.d/fdfs_storaged start
-  /usr/local/nginx/sbin/nginx
-  tail -F /usr/local/nginx/logs/access.log
+#  /usr/local/nginx/sbin/nginx
+#  tail -F /usr/local/nginx/logs/access.log
 fi
 exec "$@"

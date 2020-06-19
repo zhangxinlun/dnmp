@@ -39,11 +39,15 @@ RUN cd /opt/openresty-${OPENRESTY_VER} \
         --with-http_stub_status_module \
         --user=www-data \
         --group=www-data \
-        --add-module=/opt/fastdfs-nginx-module/src \
-    && make -j$(nproc) \
+        --add-module=/opt/fastdfs-nginx-module/src 
+RUN cd /opt/openresty-${OPENRESTY_VER} \
+    &&  make -j$(nproc) \
     && make install \
     && cp /opt/fastdfs-nginx-module/src/mod_fastdfs.conf /etc/fdfs/ \
-    && cp /opt/fastdfs/conf/{http.conf,mime.types,anti-steal.jpg} /etc/fdfs/ \
+    && cp /opt/fastdfs/conf/http.conf /etc/fdfs/ \
+    && cp /opt/fastdfs/conf/mime.types /etc/fdfs/ \
+    && cp /opt/fastdfs/conf/anti-steal.jpg /etc/fdfs/ \
+    && cd /etc/fdfs/ && for i in *.sample;do cp ${i} `echo ${i} | sed 's/\.sample//'` ;done \
     && apt-get purge -y ${BUILD_TOOLS} \
     && rm -rf /opt/* \
     && chmod u+x /entrypoint.sh

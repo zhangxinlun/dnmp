@@ -11,6 +11,7 @@ case "$1" in
     start)
 	docker-compose up -d --build
         echo "==== start Docker-compose DNMP ===="
+	docker-compose logs
 	docker-compose ps
         ;;
     stop)
