@@ -1,7 +1,10 @@
 name: Test actions
 # This workflow is triggered on pushes to the repository.
-on: [push]
-
+#on: [push]
+on:
+  push:
+    branches:    
+      - master
 jobs:
   build:
     # 作业名称为 Greeting
