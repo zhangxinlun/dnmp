@@ -3,6 +3,14 @@ services:
 #
 #  nginx
 #
+  traefik:
+   image: traefik:v2.0
+   command: --api.insecure=true --providers.docker
+   ports:
+     - "82:80"
+     - "8081:8080"
+   volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
   nginx:
     container_name: nginx
     hostname: nginx
