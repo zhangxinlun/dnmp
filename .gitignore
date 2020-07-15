@@ -1,4 +1,7 @@
 .gitignore
+*.key
+*.pem
+*.crt
 *.log
 logs/
 services/fastdfs/data/
