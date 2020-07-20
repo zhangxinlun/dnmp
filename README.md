@@ -5,6 +5,7 @@
 
 ## What you'll need
 - Docker CE
+- Docker-compose
 
 ## Stack
 - Docker
